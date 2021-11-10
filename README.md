@@ -1,4 +1,3 @@
-# MP001-B
-Macropad With Bluetooth Support
+# Macro Keyboard
 
-Includes OLED Screen as well as battery charging and management
+Keyboard Design with Modular Parts, ranging from 108 Keys to 60%
