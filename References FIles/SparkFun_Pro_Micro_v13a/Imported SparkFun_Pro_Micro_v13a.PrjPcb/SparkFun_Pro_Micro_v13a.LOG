@@ -1,0 +1,26 @@
+Importer Log Report
+Project : SparkFun_Pro_Micro_v13a.PrjPcb
+
+Section : Analyze Document - E:\GitHub Docs\ModularKeyboard\References FIles\SparkFun_Pro_Micro_v13a\SparkFun_Pro_Micro_v13a.sch
+    Analyzing data of E:\GitHub Docs\ModularKeyboard\References FIles\SparkFun_Pro_Micro_v13a\SparkFun_Pro_Micro_v13a.sch
+    Load settings
+    Load layers 109
+    Load schematic
+    Load Libraries 3
+    Load Library "SparkFun"
+    Load Packages 96
+    Load Symbols 16
+    Load DeviceSets 16
+    Load Library "Testing"
+    Load Packages 10
+    Load Symbols 2
+    Load DeviceSets 2
+    Load Library "SparkFun-Aesthetics"
+    Load Packages 1
+    Load Symbols 2
+    Load DeviceSets 1
+    Load Attributes 0
+    Load Classes 2
+    Load Parts 52
+    Load Sheets 1
+EndSection

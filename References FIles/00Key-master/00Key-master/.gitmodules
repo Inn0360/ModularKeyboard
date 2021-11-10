@@ -1,0 +1,18 @@
+[submodule "pcb/kicad/libs/keyboard_parts.pretty"]
+	path = pcb/kicad/libs/keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "pcb/kicad/libs/kicad_lib_tmk"]
+	path = pcb/kicad/libs/kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "pcb/kicad/libs/KiCad-SSD1306-128x64"]
+	path = pcb/kicad/libs/KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
+[submodule "pcb/kicad/libs/MX_Alps_Hybrid"]
+	path = pcb/kicad/libs/MX_Alps_Hybrid
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid
+[submodule "pcb/kicad/libs/teensy.pretty"]
+	path = pcb/kicad/libs/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty
+[submodule "pcb/kicad/libs/teensy_library"]
+	path = pcb/kicad/libs/teensy_library
+	url = https://github.com/XenGi/teensy_library
