@@ -1,0 +1,21 @@
+Added Component: Designator=U24(PCBComponent_1)
+Added Pin To Net: NetName=GND Pin=U24-3
+Added Pin To Net: NetName=GND Pin=U24-4
+Added Pin To Net: NetName=SDA Pin=U24-5
+Added Pin To Net: NetName=SCL Pin=U24-6
+Added Pin To Net: NetName=Row0 Pin=U24-8
+Added Pin To Net: NetName=Row1 Pin=U24-9
+Added Pin To Net: NetName=Row2 Pin=U24-10
+Added Pin To Net: NetName=Row3 Pin=U24-11
+Added Pin To Net: NetName=Row4 Pin=U24-12
+Added Pin To Net: NetName=LEDs Pin=U24-13
+Added Pin To Net: NetName=Col4 Pin=U24-15
+Added Pin To Net: NetName=Col3 Pin=U24-16
+Added Pin To Net: NetName=Col2 Pin=U24-17
+Added Pin To Net: NetName=Col1 Pin=U24-18
+Added Pin To Net: NetName=Col1 Pin=U24-18
+Added Pin To Net: NetName=Col0 Pin=U24-19
+Added Pin To Net: NetName=VCC Pin=U24-21
+Added Pin To Net: NetName=RESET Pin=U24-22
+Added Pin To Net: NetName=GND Pin=U24-23
+Added Member To Class: ClassName=Main_Design Member=Component U24 ProMicro

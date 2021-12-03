@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=VCC Pin=C5-2
+Removed Pin From Net: NetName=VCC Pin=C10-2
+Removed Pin From Net: NetName=Row0 Pin=D1-2
+Removed Pin From Net: NetName=Row1 Pin=D6-2
+Removed Pin From Net: NetName=Col0 Pin=S1-1
+Removed Pin From Net: NetName=Col0 Pin=S6-1
+Removed Pin From Net: NetName=GND Pin=U5-3
+Removed Pin From Net: NetName=GND Pin=U10-3
+Removed Member From Class: ClassName=LEDs Member=C5
+Removed Member From Class: ClassName=LEDs Member=C10
+Removed Member From Class: ClassName=Main_Design Member=D1
+Removed Member From Class: ClassName=Main_Design Member=D6
+Removed Member From Class: ClassName=Main_Design Member=S1
+Removed Member From Class: ClassName=LEDs Member=U5
+Removed Member From Class: ClassName=LEDs Member=U10
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Member To Class: ClassName=Main_Design Member=Component S2 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S4 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S8 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S10 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S12 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S14 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S16 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S18 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S20 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S22 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S24 PG151101S11
+Added Room: Name=LEDs
+Added Room: Name=Main_Design
