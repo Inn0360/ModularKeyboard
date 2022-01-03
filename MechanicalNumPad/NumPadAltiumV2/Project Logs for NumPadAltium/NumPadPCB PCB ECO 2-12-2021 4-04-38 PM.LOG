@@ -1,0 +1,26 @@
+Change Component Designator: OldDesignator=S1 NewDesignator=S2
+Change Component Designator: OldDesignator=S2 NewDesignator=S3
+Change Component Designator: OldDesignator=S3 NewDesignator=S4
+Change Component Designator: OldDesignator=S4 NewDesignator=S5
+Change Component Designator: OldDesignator=S5 NewDesignator=S6
+Change Component Designator: OldDesignator=S6 NewDesignator=S7
+Change Component Designator: OldDesignator=S7 NewDesignator=S8
+Change Component Designator: OldDesignator=S8 NewDesignator=S9
+Change Component Designator: OldDesignator=S9 NewDesignator=S10
+Change Component Designator: OldDesignator=S10 NewDesignator=S11
+Change Component Designator: OldDesignator=S11 NewDesignator=S12
+Change Component Designator: OldDesignator=S12 NewDesignator=S13
+Change Component Designator: OldDesignator=S13 NewDesignator=S14
+Change Component Designator: OldDesignator=S14 NewDesignator=S15
+Change Component Designator: OldDesignator=S15 NewDesignator=S16
+Change Component Designator: OldDesignator=S16 NewDesignator=S17
+Change Component Designator: OldDesignator=S17 NewDesignator=S18
+Change Component Designator: OldDesignator=S18 NewDesignator=S19
+Change Component Designator: OldDesignator=S19 NewDesignator=S20
+Change Component Designator: OldDesignator=S20 NewDesignator=S21
+Change Component Designator: OldDesignator=S21 NewDesignator=S22
+Change Component Designator: OldDesignator=S22 NewDesignator=S23
+Change Component Designator: OldDesignator=S23 NewDesignator=S24
+Change Component Designator: OldDesignator=S24 NewDesignator=S1
+Added Room: Name=LEDs
+Added Room: Name=Main_Design
