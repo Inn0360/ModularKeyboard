@@ -1,22 +1,208 @@
 Protel Design System Design Rule Check
 PCB File : E:\GitHub Docs\ModularKeyboard\MechanicalNumPad\NumPadAltiumV2\NumPadPCB.PcbDoc
-Date     : 12/01/2022
-Time     : 6:12:26 PM
+Date     : 15/01/2022
+Time     : 10:50:02 PM
 
 ERROR : More than 500 violations detected, DRC was stopped
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J10-(393.415mm,163.242mm) on Multi-Layer And Pad J10-1(396.041mm,162.46mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J10-(393.415mm,163.242mm) on Multi-Layer And Pad J10-2(396.041mm,164.21mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J10-(393.415mm,163.242mm) on Multi-Layer And Pad J10-3(390.815mm,164.21mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J10-(393.415mm,163.242mm) on Multi-Layer And Pad J10-4(390.815mm,162.46mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J11-(412.465mm,163.2mm) on Multi-Layer And Pad J11-1(409.839mm,163.982mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J14-(347.075mm,167.575mm) on Multi-Layer And Pad J14-2(349.701mm,168.543mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J14-(347.075mm,167.575mm) on Multi-Layer And Pad J14-3(344.475mm,168.543mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J15-(347.219mm,172.777mm) on Multi-Layer And Pad J15-1(349.845mm,171.995mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J15-(347.219mm,172.777mm) on Multi-Layer And Pad J15-2(349.845mm,173.745mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J15-(347.219mm,172.777mm) on Multi-Layer And Pad J15-3(344.619mm,173.745mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J15-(347.219mm,172.777mm) on Multi-Layer And Pad J15-4(344.619mm,171.995mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J18-(347.219mm,189.552mm) on Multi-Layer And Pad J18-2(349.845mm,190.52mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J18-(347.219mm,189.552mm) on Multi-Layer And Pad J18-3(344.619mm,190.52mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J19-(347.219mm,195.153mm) on Multi-Layer And Pad J19-1(349.845mm,194.371mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J22-(347.3mm,211.55mm) on Multi-Layer And Pad J22-2(349.926mm,212.518mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J23-(347.225mm,216.525mm) on Multi-Layer And Pad J23-1(349.851mm,215.743mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J3-(431.515mm,201.257mm) on Multi-Layer And Pad J3-1(428.889mm,202.039mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J3-(431.515mm,201.257mm) on Multi-Layer And Pad J3-2(428.889mm,200.289mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J3-(431.515mm,201.257mm) on Multi-Layer And Pad J3-3(434.115mm,200.289mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J3-(431.515mm,201.257mm) on Multi-Layer And Pad J3-4(434.115mm,202.039mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J4-(450.565mm,201.283mm) on Multi-Layer And Pad J4-1(447.939mm,202.065mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J4-(450.565mm,201.283mm) on Multi-Layer And Pad J4-4(453.165mm,202.065mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J6-(412.465mm,182.275mm) on Multi-Layer And Pad J6-2(409.839mm,181.307mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J6-(412.465mm,182.275mm) on Multi-Layer And Pad J6-3(415.065mm,181.307mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.226mm < 0.25mm) Between Hole of Pad J9-(469.615mm,201.613mm) on Multi-Layer And Pad J9-2(472.241mm,202.581mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Hole of Pad J9-(469.615mm,201.613mm) on Multi-Layer And Pad J9-3(467.015mm,202.581mm) on Bottom Layer 
+Rule Violations :26
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net NetJ19_2 Between Pad J19-2(568.646mm,119.093mm) on Bottom Layer And Pad J20-4(572.496mm,123.893mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetJ20_2 Between Pad J20-2(574.246mm,119.093mm) on Bottom Layer And Pad J21-4(578.346mm,123.893mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetJ21_2 Between Pad J22-4(487.867mm,123.893mm) on Bottom Layer And Pad J21-2(580.096mm,119.093mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetJ22_2 Between Pad J23-4(482.017mm,123.893mm) on Bottom Layer And Pad J22-2(489.617mm,119.093mm) on Bottom Layer 
-Rule Violations :4
+   Violation between Un-Routed Net Constraint: Net NetC10_1 Between Pad C10-1(370.05mm,142.3mm) on Top Layer And Pad J10-1(396.041mm,162.46mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C10-2(370.05mm,143.8mm) on Top Layer And Pad C11-2(370.05mm,149.375mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C9-2(370.05mm,139.475mm) on Top Layer And Pad C10-2(370.05mm,143.8mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad J1-1(396.041mm,200.483mm) on Bottom Layer And Pad C1-1(409.575mm,241.625mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetC11_1 Between Pad C11-1(370.05mm,147.875mm) on Top Layer And Pad J11-1(409.839mm,163.982mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C11-2(370.05mm,149.375mm) on Top Layer And Pad C12-2(370.05mm,154.45mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C1-2(409.575mm,243.125mm) on Bottom Layer And Pad C2-2(424.25mm,243.1mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad U1-21(401.2mm,237.32mm) on Multi-Layer And Pad C1-2(409.575mm,243.125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C12-2(370.05mm,154.45mm) on Top Layer And Pad C13-2(370.05mm,160.051mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC13_1 Between Pad J13-1(341.899mm,155.057mm) on Bottom Layer And Pad C13-1(370.05mm,158.551mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C13-2(370.05mm,160.051mm) on Top Layer And Pad C14-2(370.05mm,165.626mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC14_1 Between Pad J14-1(349.701mm,166.793mm) on Bottom Layer And Pad C14-1(370.05mm,164.126mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C14-2(370.05mm,165.626mm) on Top Layer And Pad C15-2(370.175mm,171.694mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC15_1 Between Pad J15-1(349.845mm,171.995mm) on Bottom Layer And Pad C15-1(370.175mm,170.194mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C15-2(370.175mm,171.694mm) on Top Layer And Pad C16-2(370.175mm,177.269mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC16_1 Between Pad J16-1(349.526mm,177.318mm) on Bottom Layer And Pad C16-1(370.175mm,175.769mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C16-2(370.175mm,177.269mm) on Top Layer And Pad C17-2(370.175mm,182.869mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC17_1 Between Pad J17-1(349.845mm,183.17mm) on Bottom Layer And Pad C17-1(370.175mm,181.369mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C17-2(370.175mm,182.869mm) on Top Layer And Pad C18-2(370.175mm,188.445mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC18_1 Between Pad J18-1(349.845mm,188.77mm) on Bottom Layer And Pad C18-1(370.175mm,186.945mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C18-2(370.175mm,188.445mm) on Top Layer And Pad C20-2(370.175mm,199.62mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC19_1 Between Pad J19-1(349.845mm,194.371mm) on Bottom Layer And Pad C19-1(370.175mm,192.545mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC20_1 Between Pad J20-1(349.845mm,199.971mm) on Bottom Layer And Pad C20-1(370.175mm,198.12mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C20-2(370.175mm,199.62mm) on Top Layer And Pad C21-2(370.175mm,205.47mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC2_1 Between Pad J2-1(409.839mm,202.051mm) on Bottom Layer And Pad C2-1(424.25mm,241.6mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetC21_1 Between Pad J21-1(349.845mm,205.821mm) on Bottom Layer And Pad C21-1(370.175mm,203.97mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C21-2(370.175mm,205.47mm) on Top Layer And Pad C22-2(370.381mm,210.244mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C2-2(424.25mm,243.1mm) on Bottom Layer And Pad P1-1(437.23mm,242.975mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC22_1 Between Pad J22-1(349.926mm,210.768mm) on Bottom Layer And Pad C22-1(370.381mm,208.744mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C23-2(369.906mm,215.294mm) on Top Layer And Pad C22-2(370.381mm,210.244mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC23_1 Between Pad J23-1(349.851mm,215.743mm) on Bottom Layer And Pad C23-1(369.906mm,213.794mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C23-2(369.906mm,215.294mm) on Top Layer And Pad U1-21(401.2mm,237.32mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC3_1 Between Pad J3-1(428.889mm,202.039mm) on Bottom Layer And Pad C3-1(458.325mm,244.15mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad P1-1(437.23mm,242.975mm) on Multi-Layer And Pad C3-2(458.325mm,242.65mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetC4_1 Between Pad C4-1(369.9mm,116.401mm) on Top Layer And Pad J4-1(447.939mm,202.065mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C4-2(369.9mm,117.901mm) on Top Layer And Pad C6-2(369.9mm,126.526mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC5_1 Between Pad C5-1(369.9mm,120.701mm) on Top Layer And Pad J5-1(396.041mm,181.523mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetC6_1 Between Pad C6-1(369.9mm,125.026mm) on Top Layer And Pad J6-1(409.839mm,183.057mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C6-2(369.9mm,126.526mm) on Top Layer And Pad C7-2(369.9mm,130.852mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C7-2(369.9mm,130.852mm) on Top Layer And Pad C8-2(370.05mm,135.149mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad C8-2(370.05mm,135.149mm) on Top Layer And Pad C9-2(370.05mm,139.475mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetC9_1 Between Pad C9-1(370.05mm,137.975mm) on Top Layer And Pad J9-1(472.241mm,200.831mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD10_1 Between Pad S8-2(442.765mm,189.34mm) on Bottom Layer And Pad D10-1(443.25mm,184.425mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row1 Between Pad D6-2(443.025mm,203.025mm) on Bottom Layer And Pad D10-2(443.25mm,181.275mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row1 Between Pad D9-2(424.275mm,181mm) on Bottom Layer And Pad D10-2(443.25mm,181.275mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_1 Between Pad D1-1(379.825mm,203.925mm) on Bottom Layer And Pad S1-2(385.615mm,208.382mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD11_1 Between Pad S9-2(461.815mm,208.382mm) on Bottom Layer And Pad D11-1(463.3mm,203.125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row2 Between Pad D15-2(443.5mm,162.125mm) on Bottom Layer And Pad D11-2(463.3mm,199.975mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row0 Between Pad D1-2(379.825mm,200.775mm) on Bottom Layer And Pad D2-2(407.194mm,201.05mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row0 Between Pad D1-2(379.825mm,200.775mm) on Bottom Layer And Pad U1-8(385.96mm,227.16mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD12_1 Between Pad S10-2(385.615mm,170.265mm) on Bottom Layer And Pad D12-1(386.2mm,165.325mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row2 Between Pad D12-2(386.2mm,162.175mm) on Bottom Layer And Pad D13-2(404.68mm,161.915mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row2 Between Pad U1-10(385.96mm,222.08mm) on Multi-Layer And Pad D12-2(386.2mm,162.175mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD13_1 Between Pad S11-2(404.665mm,170.265mm) on Bottom Layer And Pad D13-1(404.68mm,165.065mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row2 Between Pad D13-2(404.68mm,161.915mm) on Bottom Layer And Pad D14-2(424.675mm,162.325mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD14_1 Between Pad S12-2(423.715mm,170.265mm) on Bottom Layer And Pad D14-1(424.675mm,165.475mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row2 Between Pad D14-2(424.675mm,162.325mm) on Bottom Layer And Pad D15-2(443.5mm,162.125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD15_1 Between Pad S13-2(442.765mm,170.265mm) on Bottom Layer And Pad D15-1(443.5mm,165.275mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD16_1 Between Pad S14-2(461.808mm,179.752mm) on Bottom Layer And Pad D16-1(463.525mm,174.225mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row3 Between Pad D20-2(448.55mm,143.75mm) on Bottom Layer And Pad D16-2(463.525mm,171.075mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD17_1 Between Pad S15-2(385.615mm,151.24mm) on Bottom Layer And Pad D17-1(388.375mm,143.975mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row3 Between Pad D17-2(391.525mm,143.975mm) on Bottom Layer And Pad D18-2(410.525mm,143.975mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row3 Between Pad U1-11(385.96mm,219.54mm) on Multi-Layer And Pad D17-2(391.525mm,143.975mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD18_1 Between Pad S16-2(404.665mm,151.24mm) on Bottom Layer And Pad D18-1(407.375mm,143.975mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row3 Between Pad D18-2(410.525mm,143.975mm) on Bottom Layer And Pad D19-2(429.525mm,143.975mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD19_1 Between Pad S17-2(423.715mm,151.24mm) on Bottom Layer And Pad D19-1(426.375mm,143.975mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row3 Between Pad D19-2(429.525mm,143.975mm) on Bottom Layer And Pad D20-2(448.55mm,143.75mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD20_1 Between Pad S18-2(442.765mm,151.255mm) on Bottom Layer And Pad D20-1(445.4mm,143.75mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD2_1 Between Pad D2-1(404.044mm,201.05mm) on Bottom Layer And Pad S2-2(404.665mm,208.382mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD21_1 Between Pad S19-2(461.808mm,141.625mm) on Bottom Layer And Pad D21-1(464.654mm,134.435mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row4 Between Pad D25-2(448.475mm,124.775mm) on Bottom Layer And Pad D21-2(467.804mm,134.435mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row0 Between Pad D2-2(407.194mm,201.05mm) on Bottom Layer And Pad D3-2(423.286mm,199.475mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD22_1 Between Pad S20-2(385.615mm,132.19mm) on Bottom Layer And Pad D22-1(388.375mm,125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row4 Between Pad D22-2(391.525mm,125mm) on Bottom Layer And Pad D23-2(410.525mm,125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row4 Between Pad U1-12(385.96mm,217mm) on Multi-Layer And Pad D22-2(391.525mm,125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD23_1 Between Pad S21-2(404.665mm,132.19mm) on Bottom Layer And Pad D23-1(407.375mm,125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row4 Between Pad D23-2(410.525mm,125mm) on Bottom Layer And Pad D24-2(429.525mm,125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD24_1 Between Pad S22-2(423.715mm,132.19mm) on Bottom Layer And Pad D24-1(426.375mm,125mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row4 Between Pad D24-2(429.525mm,125mm) on Bottom Layer And Pad D25-2(448.475mm,124.775mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD25_1 Between Pad S23-2(442.765mm,132.19mm) on Bottom Layer And Pad D25-1(445.325mm,124.775mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_1 Between Pad D3-1(423.286mm,202.625mm) on Bottom Layer And Pad S3-2(423.715mm,208.382mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row0 Between Pad D3-2(423.286mm,199.475mm) on Bottom Layer And Pad D4-2(452.15mm,233.725mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD4_1 Between Pad SW2-4(444.29mm,223.733mm) on Multi-Layer And Pad D4-1(449mm,233.725mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row0 Between Pad D4-2(452.15mm,233.725mm) on Bottom Layer And Pad D5-2(456.813mm,233.754mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Encode_Out Between Pad D5-1(459.963mm,233.754mm) on Bottom Layer And Pad ENC1-2(472.1mm,231.551mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD6_1 Between Pad S4-2(442.765mm,208.382mm) on Bottom Layer And Pad D6-1(443.025mm,199.875mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD7_1 Between Pad S5-2(385.615mm,189.34mm) on Bottom Layer And Pad D7-1(386.325mm,184.4mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row1 Between Pad D7-2(386.325mm,181.25mm) on Bottom Layer And Pad D8-2(405.775mm,184.15mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row1 Between Pad U1-9(385.96mm,224.62mm) on Multi-Layer And Pad D7-2(386.325mm,181.25mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD8_1 Between Pad S6-2(404.665mm,189.34mm) on Bottom Layer And Pad D8-1(405.775mm,181mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Row1 Between Pad D8-2(405.775mm,184.15mm) on Bottom Layer And Pad D9-2(424.275mm,181mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD9_1 Between Pad S7-2(423.715mm,189.34mm) on Bottom Layer And Pad D9-1(424.275mm,184.15mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col4 Between Pad S8-1(457.165mm,191.88mm) on Bottom Layer And Pad ENC1-1(467.1mm,231.551mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Col4 Between Pad U1-17(401.2mm,227.16mm) on Multi-Layer And Pad ENC1-1(467.1mm,231.551mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad ENC1-3(464mm,224.551mm) on Multi-Layer And Pad ENC1-4(475.2mm,224.551mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad ENC1-3(464mm,224.551mm) on Multi-Layer And Pad ENC1-C(469.6mm,217.051mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net En_A Between Pad U1-19(401.2mm,232.24mm) on Multi-Layer And Pad ENC1-A(467.1mm,217.051mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net En_B Between Pad U1-18(401.2mm,229.7mm) on Multi-Layer And Pad ENC1-B(472.1mm,217.051mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J9-3(467.015mm,202.581mm) on Bottom Layer And Pad ENC1-C(469.6mm,217.051mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ9_4 Between Pad J10-2(396.041mm,164.21mm) on Bottom Layer And Pad J9-4(467.015mm,200.831mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J10-3(390.815mm,164.21mm) on Bottom Layer And Pad J5-3(390.815mm,183.273mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ10_4 Between Pad J10-4(390.815mm,162.46mm) on Bottom Layer And Pad J11-2(409.839mm,162.232mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J11-3(415.065mm,162.232mm) on Bottom Layer And Pad J6-3(415.065mm,181.307mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ1_2 Between Pad J1-2(396.041mm,202.233mm) on Bottom Layer And Pad J2-4(415.065mm,202.051mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J20-3(344.619mm,201.721mm) on Bottom Layer And Pad J1-3(390.815mm,202.233mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-3(390.815mm,202.233mm) on Bottom Layer And Pad J2-3(415.065mm,200.301mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J5-3(390.815mm,183.273mm) on Bottom Layer And Pad J1-3(390.815mm,202.233mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-4(385.96mm,237.32mm) on Multi-Layer And Pad J1-3(390.815mm,202.233mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J14-3(344.475mm,168.543mm) on Bottom Layer And Pad J13-3(347.125mm,153.307mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ13_4 Between Pad J13-4(347.125mm,155.057mm) on Bottom Layer And Pad J14-2(349.701mm,168.543mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net LEDs Between Pad J1-4(390.815mm,200.483mm) on Bottom Layer And Pad R1-2(428.65mm,276.175mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J14-3(344.475mm,168.543mm) on Bottom Layer And Pad J15-3(344.619mm,173.745mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ15_2 Between Pad J16-4(344.3mm,177.318mm) on Bottom Layer And Pad J15-2(349.845mm,173.745mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J15-3(344.619mm,173.745mm) on Bottom Layer And Pad J17-3(344.619mm,184.92mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ16_2 Between Pad J17-4(344.619mm,183.17mm) on Bottom Layer And Pad J16-2(349.526mm,179.068mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ17_2 Between Pad J18-4(344.619mm,188.77mm) on Bottom Layer And Pad J17-2(349.845mm,184.92mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J17-3(344.619mm,184.92mm) on Bottom Layer And Pad J18-3(344.619mm,190.52mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ18_2 Between Pad J19-4(344.619mm,194.371mm) on Bottom Layer And Pad J18-2(349.845mm,190.52mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J18-3(344.619mm,190.52mm) on Bottom Layer And Pad J19-3(344.619mm,196.121mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ19_2 Between Pad J20-4(344.619mm,199.971mm) on Bottom Layer And Pad J19-2(349.845mm,196.121mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J19-3(344.619mm,196.121mm) on Bottom Layer And Pad J20-3(344.619mm,201.721mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ20_2 Between Pad J21-4(344.619mm,205.821mm) on Bottom Layer And Pad J20-2(349.845mm,201.721mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J20-3(344.619mm,201.721mm) on Bottom Layer And Pad J21-3(344.619mm,207.571mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ21_2 Between Pad J22-4(344.7mm,210.768mm) on Bottom Layer And Pad J21-2(349.845mm,207.571mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J21-3(344.619mm,207.571mm) on Bottom Layer And Pad J22-3(344.7mm,212.518mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ2_2 Between Pad J2-2(409.839mm,200.301mm) on Bottom Layer And Pad J3-4(434.115mm,202.039mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ22_2 Between Pad J23-4(344.625mm,215.743mm) on Bottom Layer And Pad J22-2(349.926mm,212.518mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J23-3(344.625mm,217.493mm) on Bottom Layer And Pad J22-3(344.7mm,212.518mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-3(415.065mm,200.301mm) on Bottom Layer And Pad J3-3(434.115mm,200.289mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J6-3(415.065mm,181.307mm) on Bottom Layer And Pad J2-3(415.065mm,200.301mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ3_2 Between Pad J3-2(428.889mm,200.289mm) on Bottom Layer And Pad J4-4(453.165mm,202.065mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J3-3(434.115mm,200.289mm) on Bottom Layer And Pad J4-3(453.165mm,200.315mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ4_2 Between Pad J5-4(390.815mm,181.523mm) on Bottom Layer And Pad J4-2(447.939mm,200.315mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J4-3(453.165mm,200.315mm) on Bottom Layer And Pad J9-3(467.015mm,202.581mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ5_2 Between Pad J5-2(396.041mm,183.273mm) on Bottom Layer And Pad J6-4(415.065mm,183.057mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-23(401.2mm,242.4mm) on Multi-Layer And Pad P1-2(439.77mm,242.975mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net SCL Between Pad U1-6(385.96mm,232.24mm) on Multi-Layer And Pad P1-3(442.31mm,242.975mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net SDA Between Pad U1-5(385.96mm,234.78mm) on Multi-Layer And Pad P1-4(444.85mm,242.975mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetR1_1 Between Pad U1-20(401.2mm,234.78mm) on Multi-Layer And Pad R1-1(426.75mm,276.175mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Col1 Between Pad S15-1(400.015mm,153.78mm) on Bottom Layer And Pad S10-1(400.015mm,172.805mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col1 Between Pad S10-1(400.015mm,172.805mm) on Bottom Layer And Pad S5-1(400.015mm,191.88mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col0 Between Pad S1-1(400.015mm,210.922mm) on Bottom Layer And Pad S4-1(457.165mm,210.922mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col0 Between Pad S1-1(400.015mm,210.922mm) on Bottom Layer And Pad U1-13(401.2mm,217mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Col2 Between Pad S16-1(419.065mm,153.78mm) on Bottom Layer And Pad S11-1(419.065mm,172.805mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col2 Between Pad S11-1(419.065mm,172.805mm) on Bottom Layer And Pad S6-1(419.065mm,191.88mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col3 Between Pad S17-1(438.115mm,153.78mm) on Bottom Layer And Pad S12-1(438.115mm,172.805mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col3 Between Pad S12-1(438.115mm,172.805mm) on Bottom Layer And Pad S7-1(438.115mm,191.88mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col4 Between Pad S18-1(457.165mm,153.795mm) on Bottom Layer And Pad S13-1(457.165mm,172.805mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col4 Between Pad S13-1(457.165mm,172.805mm) on Bottom Layer And Pad S8-1(457.165mm,191.88mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col0 Between Pad S14-1(476.208mm,182.292mm) on Bottom Layer And Pad S19-1(476.208mm,144.165mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col0 Between Pad S14-1(476.208mm,182.292mm) on Bottom Layer And Pad S9-1(476.215mm,210.922mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col1 Between Pad S20-1(400.015mm,134.73mm) on Bottom Layer And Pad S15-1(400.015mm,153.78mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col2 Between Pad S21-1(419.065mm,134.73mm) on Bottom Layer And Pad S16-1(419.065mm,153.78mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col3 Between Pad S22-1(438.115mm,134.73mm) on Bottom Layer And Pad S17-1(438.115mm,153.78mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col4 Between Pad S23-1(457.165mm,134.73mm) on Bottom Layer And Pad S18-1(457.165mm,153.795mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col1 Between Pad U1-14(401.2mm,219.54mm) on Multi-Layer And Pad S2-1(419.065mm,210.922mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col2 Between Pad S6-1(419.065mm,191.88mm) on Bottom Layer And Pad S3-1(438.115mm,210.922mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col0 Between Pad S4-1(457.165mm,210.922mm) on Bottom Layer And Pad S9-1(476.215mm,210.922mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col1 Between Pad S5-1(400.015mm,191.88mm) on Bottom Layer And Pad U1-14(401.2mm,219.54mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Col2 Between Pad U1-15(401.2mm,222.08mm) on Multi-Layer And Pad S6-1(419.065mm,191.88mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col3 Between Pad SW2-1(437.79mm,219.233mm) on Multi-Layer And Pad S7-1(438.115mm,191.88mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net Col3 Between Pad U1-16(401.2mm,224.62mm) on Multi-Layer And Pad SW2-1(437.79mm,219.233mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-3(385.96mm,239.86mm) on Multi-Layer And Pad U1-23(401.2mm,242.4mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-4(385.96mm,237.32mm) on Multi-Layer And Pad U1-3(385.96mm,239.86mm) on Multi-Layer 
+Rule Violations :164
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -43,512 +229,332 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad D25-1(482.174mm,126.906mm) on Top Layer And Text "J23" (481.535mm,125.518mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-1(592.347mm,119.093mm) on Bottom Layer And Track (591.729mm,119.906mm)(591.729mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-1(592.347mm,119.093mm) on Bottom Layer And Track (591.729mm,119.906mm)(594.529mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-2(594.097mm,119.093mm) on Bottom Layer And Track (591.729mm,119.906mm)(594.529mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-2(594.097mm,119.093mm) on Bottom Layer And Track (594.529mm,119.906mm)(594.529mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-3(594.097mm,123.893mm) on Bottom Layer And Track (591.729mm,123.106mm)(594.529mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-3(594.097mm,123.893mm) on Bottom Layer And Track (594.529mm,119.906mm)(594.529mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-4(592.347mm,123.893mm) on Bottom Layer And Track (591.729mm,119.906mm)(591.729mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J10-4(592.347mm,123.893mm) on Bottom Layer And Track (591.729mm,123.106mm)(594.529mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J10-4(592.347mm,123.893mm) on Bottom Layer And Track (593.072mm,123.506mm)(593.072mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-1(597.947mm,119.093mm) on Bottom Layer And Track (597.329mm,119.906mm)(597.329mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-1(597.947mm,119.093mm) on Bottom Layer And Track (597.329mm,119.906mm)(600.129mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-2(599.697mm,119.093mm) on Bottom Layer And Track (597.329mm,119.906mm)(600.129mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-2(599.697mm,119.093mm) on Bottom Layer And Track (600.129mm,119.906mm)(600.129mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-3(599.697mm,123.893mm) on Bottom Layer And Track (597.329mm,123.106mm)(600.129mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-3(599.697mm,123.893mm) on Bottom Layer And Track (600.129mm,119.906mm)(600.129mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-4(597.947mm,123.893mm) on Bottom Layer And Track (597.329mm,119.906mm)(597.329mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J11-4(597.947mm,123.893mm) on Bottom Layer And Track (597.329mm,123.106mm)(600.129mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J11-4(597.947mm,123.893mm) on Bottom Layer And Track (598.672mm,123.506mm)(598.672mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-1(603.022mm,119.093mm) on Bottom Layer And Track (602.404mm,119.906mm)(602.404mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-1(603.022mm,119.093mm) on Bottom Layer And Track (602.404mm,119.906mm)(605.204mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-2(604.772mm,119.093mm) on Bottom Layer And Track (602.404mm,119.906mm)(605.204mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-2(604.772mm,119.093mm) on Bottom Layer And Track (605.204mm,119.906mm)(605.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-3(604.772mm,123.893mm) on Bottom Layer And Track (602.404mm,123.106mm)(605.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-3(604.772mm,123.893mm) on Bottom Layer And Track (605.204mm,119.906mm)(605.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-4(603.022mm,123.893mm) on Bottom Layer And Track (602.404mm,119.906mm)(602.404mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J12-4(603.022mm,123.893mm) on Bottom Layer And Track (602.404mm,123.106mm)(605.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J12-4(603.022mm,123.893mm) on Bottom Layer And Track (603.747mm,123.506mm)(603.747mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-1(608.623mm,119.093mm) on Bottom Layer And Track (608.005mm,119.906mm)(608.005mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-1(608.623mm,119.093mm) on Bottom Layer And Track (608.005mm,119.906mm)(610.805mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-2(610.373mm,119.093mm) on Bottom Layer And Track (608.005mm,119.906mm)(610.805mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-2(610.373mm,119.093mm) on Bottom Layer And Track (610.805mm,119.906mm)(610.805mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-3(610.373mm,123.893mm) on Bottom Layer And Track (608.005mm,123.106mm)(610.805mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-3(610.373mm,123.893mm) on Bottom Layer And Track (610.805mm,119.906mm)(610.805mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-4(608.623mm,123.893mm) on Bottom Layer And Track (608.005mm,119.906mm)(608.005mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J13-4(608.623mm,123.893mm) on Bottom Layer And Track (608.005mm,123.106mm)(610.805mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J13-4(608.623mm,123.893mm) on Bottom Layer And Track (609.348mm,123.506mm)(609.348mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-1(614.223mm,119.093mm) on Bottom Layer And Track (613.605mm,119.906mm)(613.605mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-1(614.223mm,119.093mm) on Bottom Layer And Track (613.605mm,119.906mm)(616.405mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-2(615.973mm,119.093mm) on Bottom Layer And Track (613.605mm,119.906mm)(616.405mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-2(615.973mm,119.093mm) on Bottom Layer And Track (616.405mm,119.906mm)(616.405mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-3(615.973mm,123.893mm) on Bottom Layer And Track (613.605mm,123.106mm)(616.405mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-3(615.973mm,123.893mm) on Bottom Layer And Track (616.405mm,119.906mm)(616.405mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-4(614.223mm,123.893mm) on Bottom Layer And Track (613.605mm,119.906mm)(613.605mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J14-4(614.223mm,123.893mm) on Bottom Layer And Track (613.605mm,123.106mm)(616.405mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J14-4(614.223mm,123.893mm) on Bottom Layer And Track (614.948mm,123.506mm)(614.948mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-1(544.52mm,119.093mm) on Bottom Layer And Track (543.902mm,119.906mm)(543.902mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-1(544.52mm,119.093mm) on Bottom Layer And Track (543.902mm,119.906mm)(546.702mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-2(546.27mm,119.093mm) on Bottom Layer And Track (543.902mm,119.906mm)(546.702mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-2(546.27mm,119.093mm) on Bottom Layer And Track (546.702mm,119.906mm)(546.702mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-3(546.27mm,123.893mm) on Bottom Layer And Track (543.902mm,123.106mm)(546.702mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-3(546.27mm,123.893mm) on Bottom Layer And Track (546.702mm,119.906mm)(546.702mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-4(544.52mm,123.893mm) on Bottom Layer And Track (543.902mm,119.906mm)(543.902mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J15-4(544.52mm,123.893mm) on Bottom Layer And Track (543.902mm,123.106mm)(546.702mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J15-4(544.52mm,123.893mm) on Bottom Layer And Track (545.245mm,123.506mm)(545.245mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-1(550.12mm,119.093mm) on Bottom Layer And Track (549.502mm,119.906mm)(549.502mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-1(550.12mm,119.093mm) on Bottom Layer And Track (549.502mm,119.906mm)(552.302mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-2(551.87mm,119.093mm) on Bottom Layer And Track (549.502mm,119.906mm)(552.302mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-2(551.87mm,119.093mm) on Bottom Layer And Track (552.302mm,119.906mm)(552.302mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-3(551.87mm,123.893mm) on Bottom Layer And Track (549.502mm,123.106mm)(552.302mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-3(551.87mm,123.893mm) on Bottom Layer And Track (552.302mm,119.906mm)(552.302mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-4(550.12mm,123.893mm) on Bottom Layer And Track (549.502mm,119.906mm)(549.502mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J16-4(550.12mm,123.893mm) on Bottom Layer And Track (549.502mm,123.106mm)(552.302mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J16-4(550.12mm,123.893mm) on Bottom Layer And Track (550.845mm,123.506mm)(550.845mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-1(555.72mm,119.093mm) on Bottom Layer And Track (555.102mm,119.906mm)(555.102mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-1(555.72mm,119.093mm) on Bottom Layer And Track (555.102mm,119.906mm)(557.902mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-2(557.47mm,119.093mm) on Bottom Layer And Track (555.102mm,119.906mm)(557.902mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-2(557.47mm,119.093mm) on Bottom Layer And Track (557.902mm,119.906mm)(557.902mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-3(557.47mm,123.893mm) on Bottom Layer And Track (555.102mm,123.106mm)(557.902mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-3(557.47mm,123.893mm) on Bottom Layer And Track (557.902mm,119.906mm)(557.902mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-4(555.72mm,123.893mm) on Bottom Layer And Track (555.102mm,119.906mm)(555.102mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J17-4(555.72mm,123.893mm) on Bottom Layer And Track (555.102mm,123.106mm)(557.902mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J17-4(555.72mm,123.893mm) on Bottom Layer And Track (556.445mm,123.506mm)(556.445mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-1(561.295mm,119.093mm) on Bottom Layer And Track (560.677mm,119.906mm)(560.677mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-1(561.295mm,119.093mm) on Bottom Layer And Track (560.677mm,119.906mm)(563.477mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-2(563.045mm,119.093mm) on Bottom Layer And Track (560.677mm,119.906mm)(563.477mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-2(563.045mm,119.093mm) on Bottom Layer And Track (563.477mm,119.906mm)(563.477mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-3(563.045mm,123.893mm) on Bottom Layer And Track (560.677mm,123.106mm)(563.477mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-3(563.045mm,123.893mm) on Bottom Layer And Track (563.477mm,119.906mm)(563.477mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-4(561.295mm,123.893mm) on Bottom Layer And Track (560.677mm,119.906mm)(560.677mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J18-4(561.295mm,123.893mm) on Bottom Layer And Track (560.677mm,123.106mm)(563.477mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J18-4(561.295mm,123.893mm) on Bottom Layer And Track (562.02mm,123.506mm)(562.02mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-1(566.896mm,119.093mm) on Bottom Layer And Track (566.278mm,119.906mm)(566.278mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-1(566.896mm,119.093mm) on Bottom Layer And Track (566.278mm,119.906mm)(569.078mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-2(568.646mm,119.093mm) on Bottom Layer And Track (566.278mm,119.906mm)(569.078mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-2(568.646mm,119.093mm) on Bottom Layer And Track (569.078mm,119.906mm)(569.078mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-3(568.646mm,123.893mm) on Bottom Layer And Track (566.278mm,123.106mm)(569.078mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-3(568.646mm,123.893mm) on Bottom Layer And Track (569.078mm,119.906mm)(569.078mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-4(566.896mm,123.893mm) on Bottom Layer And Track (566.278mm,119.906mm)(566.278mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J19-4(566.896mm,123.893mm) on Bottom Layer And Track (566.278mm,123.106mm)(569.078mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J19-4(566.896mm,123.893mm) on Bottom Layer And Track (567.621mm,123.506mm)(567.621mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-1(572.496mm,119.093mm) on Bottom Layer And Track (571.878mm,119.906mm)(571.878mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-1(572.496mm,119.093mm) on Bottom Layer And Track (571.878mm,119.906mm)(574.678mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-2(574.246mm,119.093mm) on Bottom Layer And Track (571.878mm,119.906mm)(574.678mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-2(574.246mm,119.093mm) on Bottom Layer And Track (574.678mm,119.906mm)(574.678mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-3(574.246mm,123.893mm) on Bottom Layer And Track (571.878mm,123.106mm)(574.678mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-3(574.246mm,123.893mm) on Bottom Layer And Track (574.678mm,119.906mm)(574.678mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-4(572.496mm,123.893mm) on Bottom Layer And Track (571.878mm,119.906mm)(571.878mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J20-4(572.496mm,123.893mm) on Bottom Layer And Track (571.878mm,123.106mm)(574.678mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J20-4(572.496mm,123.893mm) on Bottom Layer And Track (573.221mm,123.506mm)(573.221mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-1(578.346mm,119.093mm) on Bottom Layer And Track (577.728mm,119.906mm)(577.728mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-1(578.346mm,119.093mm) on Bottom Layer And Track (577.728mm,119.906mm)(580.528mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-2(580.096mm,119.093mm) on Bottom Layer And Track (577.728mm,119.906mm)(580.528mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-2(580.096mm,119.093mm) on Bottom Layer And Track (580.528mm,119.906mm)(580.528mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-3(580.096mm,123.893mm) on Bottom Layer And Track (577.728mm,123.106mm)(580.528mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-3(580.096mm,123.893mm) on Bottom Layer And Track (580.528mm,119.906mm)(580.528mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-4(578.346mm,123.893mm) on Bottom Layer And Track (577.728mm,119.906mm)(577.728mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J21-4(578.346mm,123.893mm) on Bottom Layer And Track (577.728mm,123.106mm)(580.528mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J21-4(578.346mm,123.893mm) on Bottom Layer And Track (579.071mm,123.506mm)(579.071mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-1(487.867mm,119.093mm) on Bottom Layer And Track (487.249mm,119.906mm)(487.249mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-1(487.867mm,119.093mm) on Bottom Layer And Track (487.249mm,119.906mm)(490.049mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-2(489.617mm,119.093mm) on Bottom Layer And Track (487.249mm,119.906mm)(490.049mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-2(489.617mm,119.093mm) on Bottom Layer And Track (490.049mm,119.906mm)(490.049mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-3(489.617mm,123.893mm) on Bottom Layer And Track (487.249mm,123.106mm)(490.049mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-3(489.617mm,123.893mm) on Bottom Layer And Track (490.049mm,119.906mm)(490.049mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-4(487.867mm,123.893mm) on Bottom Layer And Track (487.249mm,119.906mm)(487.249mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J22-4(487.867mm,123.893mm) on Bottom Layer And Track (487.249mm,123.106mm)(490.049mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J22-4(487.867mm,123.893mm) on Bottom Layer And Track (488.592mm,123.506mm)(488.592mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-1(482.017mm,119.093mm) on Bottom Layer And Track (481.399mm,119.906mm)(481.399mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-1(482.017mm,119.093mm) on Bottom Layer And Track (481.399mm,119.906mm)(484.199mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-2(483.767mm,119.093mm) on Bottom Layer And Track (481.399mm,119.906mm)(484.199mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-2(483.767mm,119.093mm) on Bottom Layer And Track (484.199mm,119.906mm)(484.199mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-3(483.767mm,123.893mm) on Bottom Layer And Track (481.399mm,123.106mm)(484.199mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-3(483.767mm,123.893mm) on Bottom Layer And Track (484.199mm,119.906mm)(484.199mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-4(482.017mm,123.893mm) on Bottom Layer And Track (481.399mm,119.906mm)(481.399mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J23-4(482.017mm,123.893mm) on Bottom Layer And Track (481.399mm,123.106mm)(484.199mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J23-4(482.017mm,123.893mm) on Bottom Layer And Track (482.742mm,123.506mm)(482.742mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-1(673.151mm,119.093mm) on Bottom Layer And Track (672.533mm,119.906mm)(672.533mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-1(673.151mm,119.093mm) on Bottom Layer And Track (672.533mm,119.906mm)(675.333mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-2(674.901mm,119.093mm) on Bottom Layer And Track (672.533mm,119.906mm)(675.333mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-2(674.901mm,119.093mm) on Bottom Layer And Track (675.333mm,119.906mm)(675.333mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-3(674.901mm,123.893mm) on Bottom Layer And Track (672.533mm,123.106mm)(675.333mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-3(674.901mm,123.893mm) on Bottom Layer And Track (675.333mm,119.906mm)(675.333mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-4(673.151mm,123.893mm) on Bottom Layer And Track (672.533mm,119.906mm)(672.533mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J4-4(673.151mm,123.893mm) on Bottom Layer And Track (672.533mm,123.106mm)(675.333mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J4-4(673.151mm,123.893mm) on Bottom Layer And Track (673.876mm,123.506mm)(673.876mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-1(677.476mm,119.093mm) on Bottom Layer And Track (676.858mm,119.906mm)(676.858mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-1(677.476mm,119.093mm) on Bottom Layer And Track (676.858mm,119.906mm)(679.658mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-2(679.226mm,119.093mm) on Bottom Layer And Track (676.858mm,119.906mm)(679.658mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-2(679.226mm,119.093mm) on Bottom Layer And Track (679.658mm,119.906mm)(679.658mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-3(679.226mm,123.893mm) on Bottom Layer And Track (676.858mm,123.106mm)(679.658mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-3(679.226mm,123.893mm) on Bottom Layer And Track (679.658mm,119.906mm)(679.658mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-4(677.476mm,123.893mm) on Bottom Layer And Track (676.858mm,119.906mm)(676.858mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J5-4(677.476mm,123.893mm) on Bottom Layer And Track (676.858mm,123.106mm)(679.658mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J5-4(677.476mm,123.893mm) on Bottom Layer And Track (678.201mm,123.506mm)(678.201mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-1(681.801mm,119.093mm) on Bottom Layer And Track (681.183mm,119.906mm)(681.183mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-1(681.801mm,119.093mm) on Bottom Layer And Track (681.183mm,119.906mm)(683.983mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-2(683.551mm,119.093mm) on Bottom Layer And Track (681.183mm,119.906mm)(683.983mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-2(683.551mm,119.093mm) on Bottom Layer And Track (683.983mm,119.906mm)(683.983mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-3(683.551mm,123.893mm) on Bottom Layer And Track (681.183mm,123.106mm)(683.983mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-3(683.551mm,123.893mm) on Bottom Layer And Track (683.983mm,119.906mm)(683.983mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-4(681.801mm,123.893mm) on Bottom Layer And Track (681.183mm,119.906mm)(681.183mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J6-4(681.801mm,123.893mm) on Bottom Layer And Track (681.183mm,123.106mm)(683.983mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J6-4(681.801mm,123.893mm) on Bottom Layer And Track (682.526mm,123.506mm)(682.526mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-1(686.127mm,119.093mm) on Bottom Layer And Track (685.509mm,119.906mm)(685.509mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-1(686.127mm,119.093mm) on Bottom Layer And Track (685.509mm,119.906mm)(688.309mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-2(687.877mm,119.093mm) on Bottom Layer And Track (685.509mm,119.906mm)(688.309mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-2(687.877mm,119.093mm) on Bottom Layer And Track (688.309mm,119.906mm)(688.309mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-3(687.877mm,123.893mm) on Bottom Layer And Track (685.509mm,123.106mm)(688.309mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-3(687.877mm,123.893mm) on Bottom Layer And Track (688.309mm,119.906mm)(688.309mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-4(686.127mm,123.893mm) on Bottom Layer And Track (685.509mm,119.906mm)(685.509mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J7-4(686.127mm,123.893mm) on Bottom Layer And Track (685.509mm,123.106mm)(688.309mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J7-4(686.127mm,123.893mm) on Bottom Layer And Track (686.852mm,123.506mm)(686.852mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-1(583.697mm,119.093mm) on Bottom Layer And Track (583.079mm,119.906mm)(583.079mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-1(583.697mm,119.093mm) on Bottom Layer And Track (583.079mm,119.906mm)(585.879mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-2(585.447mm,119.093mm) on Bottom Layer And Track (583.079mm,119.906mm)(585.879mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-2(585.447mm,119.093mm) on Bottom Layer And Track (585.879mm,119.906mm)(585.879mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-3(585.447mm,123.893mm) on Bottom Layer And Track (583.079mm,123.106mm)(585.879mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-3(585.447mm,123.893mm) on Bottom Layer And Track (585.879mm,119.906mm)(585.879mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-4(583.697mm,123.893mm) on Bottom Layer And Track (583.079mm,119.906mm)(583.079mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J8-4(583.697mm,123.893mm) on Bottom Layer And Track (583.079mm,123.106mm)(585.879mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J8-4(583.697mm,123.893mm) on Bottom Layer And Track (584.422mm,123.506mm)(584.422mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-1(588.022mm,119.093mm) on Bottom Layer And Track (587.404mm,119.906mm)(587.404mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-1(588.022mm,119.093mm) on Bottom Layer And Track (587.404mm,119.906mm)(590.204mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-2(589.772mm,119.093mm) on Bottom Layer And Track (587.404mm,119.906mm)(590.204mm,119.906mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-2(589.772mm,119.093mm) on Bottom Layer And Track (590.204mm,119.906mm)(590.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-3(589.772mm,123.893mm) on Bottom Layer And Track (587.404mm,123.106mm)(590.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-3(589.772mm,123.893mm) on Bottom Layer And Track (590.204mm,119.906mm)(590.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-4(588.022mm,123.893mm) on Bottom Layer And Track (587.404mm,119.906mm)(587.404mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J9-4(588.022mm,123.893mm) on Bottom Layer And Track (587.404mm,123.106mm)(590.204mm,123.106mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J9-4(588.022mm,123.893mm) on Bottom Layer And Track (588.747mm,123.506mm)(588.747mm,124.506mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
-Rule Violations :181
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J10-4(390.815mm,162.46mm) on Bottom Layer And Track (390.415mm,163.185mm)(391.415mm,163.185mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J11-4(415.065mm,163.982mm) on Bottom Layer And Track (414.465mm,163.257mm)(415.465mm,163.257mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J13-4(347.125mm,155.057mm) on Bottom Layer And Track (346.525mm,154.332mm)(347.525mm,154.332mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J1-4(390.815mm,200.483mm) on Bottom Layer And Track (390.415mm,201.208mm)(391.415mm,201.208mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J14-4(344.475mm,166.793mm) on Bottom Layer And Track (344.075mm,167.518mm)(345.075mm,167.518mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J15-4(344.619mm,171.995mm) on Bottom Layer And Track (344.219mm,172.72mm)(345.219mm,172.72mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J16-4(344.3mm,177.318mm) on Bottom Layer And Track (343.9mm,178.043mm)(344.9mm,178.043mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J17-4(344.619mm,183.17mm) on Bottom Layer And Track (344.219mm,183.895mm)(345.219mm,183.895mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J18-4(344.619mm,188.77mm) on Bottom Layer And Track (344.219mm,189.495mm)(345.219mm,189.495mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J19-4(344.619mm,194.371mm) on Bottom Layer And Track (344.219mm,195.096mm)(345.219mm,195.096mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J20-4(344.619mm,199.971mm) on Bottom Layer And Track (344.219mm,200.696mm)(345.219mm,200.696mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J21-4(344.619mm,205.821mm) on Bottom Layer And Track (344.219mm,206.546mm)(345.219mm,206.546mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J22-4(344.7mm,210.768mm) on Bottom Layer And Track (344.3mm,211.493mm)(345.3mm,211.493mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J23-4(344.625mm,215.743mm) on Bottom Layer And Track (344.225mm,216.468mm)(345.225mm,216.468mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J2-4(415.065mm,202.051mm) on Bottom Layer And Track (414.465mm,201.326mm)(415.465mm,201.326mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J3-4(434.115mm,202.039mm) on Bottom Layer And Track (433.515mm,201.314mm)(434.515mm,201.314mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J4-4(453.165mm,202.065mm) on Bottom Layer And Track (452.565mm,201.34mm)(453.565mm,201.34mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J5-4(390.815mm,181.523mm) on Bottom Layer And Track (390.415mm,182.248mm)(391.415mm,182.248mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J6-4(415.065mm,183.057mm) on Bottom Layer And Track (414.465mm,182.332mm)(415.465mm,182.332mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J7-4(433.921mm,182.773mm) on Bottom Layer And Track (433.321mm,182.048mm)(434.321mm,182.048mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J8-4(453.165mm,182.832mm) on Bottom Layer And Track (452.565mm,182.107mm)(453.565mm,182.107mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.127mm) Between Pad J9-4(467.015mm,200.831mm) on Bottom Layer And Track (466.615mm,201.556mm)(467.615mm,201.556mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]
+Rule Violations :22
 
 Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Arc (429.8mm,239.975mm) on Bottom Layer 
-   Violation between Net Antennae: Arc (433.25mm,241.925mm) on Bottom Layer 
-   Violation between Net Antennae: Arc (464.475mm,241.65mm) on Bottom Layer 
-   Violation between Net Antennae: Track (397.625mm,241.65mm)(398.35mm,241.65mm) on Bottom Layer 
-   Violation between Net Antennae: Track (402.525mm,238.35mm)(426.5mm,238.35mm) on Bottom Layer 
-   Violation between Net Antennae: Track (402.55mm,241.625mm)(409.575mm,241.625mm) on Bottom Layer 
-   Violation between Net Antennae: Track (434.8mm,238.35mm)(455.45mm,238.35mm) on Bottom Layer 
-   Violation between Net Antennae: Track (459.13mm,241.65mm)(462.075mm,241.65mm) on Bottom Layer 
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Area Fill (481.951mm,128.069mm) (482.459mm,129.656mm) on Top Overlay And Board Edge 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C10-1(628.456mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C10-2(629.956mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C11-1(634.056mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C11-2(635.556mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C12-1(639.131mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C12-2(640.631mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C13-1(644.706mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C13-2(646.206mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C14-1(650.307mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C14-2(651.807mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C15-1(505.425mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C15-2(506.925mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C16-1(511mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C16-2(512.5mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C17-1(516.6mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C17-2(518.1mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C18-1(522.176mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C18-2(523.676mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C19-1(527.776mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C19-2(529.276mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C20-1(533.351mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C20-2(534.851mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C21-1(539.201mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C21-2(540.701mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C22-1(499.574mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C22-2(501.074mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C23-1(493.749mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C23-2(495.249mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C4-1(655.882mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C4-2(657.382mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C5-1(660.207mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C5-2(661.707mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C6-1(664.532mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C6-2(666.032mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C7-1(668.833mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C7-2(670.333mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C8-1(619.83mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C8-2(621.33mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C9-1(624.155mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C9-2(625.655mm,123.581mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad D25-1(482.174mm,126.906mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad D25-2(482.174mm,130.056mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J10-1(592.347mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J10-2(594.097mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J10-3(594.097mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J10-4(592.347mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J11-1(597.947mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J11-2(599.697mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J11-3(599.697mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J11-4(597.947mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J12-1(603.022mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J12-2(604.772mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J12-3(604.772mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J12-4(603.022mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-1(608.623mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-2(610.373mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-3(610.373mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-4(608.623mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-1(614.223mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-2(615.973mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-3(615.973mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-4(614.223mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-1(544.52mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-2(546.27mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-3(546.27mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-4(544.52mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-1(550.12mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-2(551.87mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-3(551.87mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-4(550.12mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-1(555.72mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-2(557.47mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-3(557.47mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-4(555.72mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-1(561.295mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-2(563.045mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-3(563.045mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-4(561.295mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-1(566.896mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-2(568.646mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-3(568.646mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-4(566.896mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-1(572.496mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-2(574.246mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-3(574.246mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-4(572.496mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-1(578.346mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-2(580.096mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-3(580.096mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-4(578.346mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-1(487.867mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-2(489.617mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-3(489.617mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-4(487.867mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-1(482.017mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-2(483.767mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-3(483.767mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-4(482.017mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J4-1(673.151mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J4-2(674.901mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J4-3(674.901mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J4-4(673.151mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J5-1(677.476mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J5-2(679.226mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J5-3(679.226mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J5-4(677.476mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J6-1(681.801mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J6-2(683.551mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J6-3(683.551mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J6-4(681.801mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J7-1(686.127mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J7-2(687.877mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J7-3(687.877mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J7-4(686.127mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J8-1(583.697mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J8-2(585.447mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J8-3(585.447mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J8-4(583.697mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J9-1(588.022mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J9-2(589.772mm,119.093mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J9-3(589.772mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J9-4(588.022mm,123.893mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C10" (627.948mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C11" (633.549mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C12" (638.624mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C13" (644.199mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C14" (649.799mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C15" (504.917mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C16" (510.493mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C17" (516.093mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C18" (521.668mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C19" (527.268mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C20" (532.844mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C21" (538.694mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C22" (499.067mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C23" (493.242mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C4" (655.375mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C5" (659.7mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C6" (664.025mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C7" (668.325mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C8" (619.323mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C9" (623.648mm,125.524mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "D25" (481.526mm,131.39mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J10" (591.865mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J11" (597.466mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J12" (602.541mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J13" (608.141mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J14" (613.741mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J15" (544.038mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J16" (549.638mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J17" (555.238mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J18" (560.814mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J19" (566.414mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J20" (572.014mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J21" (577.865mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J22" (487.385mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J23" (481.535mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J4" (672.669mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J5" (676.994mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J6" (681.32mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J7" (685.645mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J8" (583.215mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J9" (587.54mm,125.518mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (481.399mm,119.906mm)(481.399mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (481.399mm,119.906mm)(484.199mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (481.399mm,123.106mm)(484.199mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (481.399mm,127.846mm)(481.399mm,129.116mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (481.399mm,129.116mm)(482.949mm,129.116mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (482.742mm,123.506mm)(482.742mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (482.949mm,127.846mm)(482.949mm,129.116mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (484.199mm,119.906mm)(484.199mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (487.249mm,119.906mm)(487.249mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (487.249mm,119.906mm)(490.049mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (487.249mm,123.106mm)(490.049mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (488.592mm,123.506mm)(488.592mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (490.049mm,119.906mm)(490.049mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (493.399mm,122.506mm)(495.599mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (493.399mm,124.656mm)(495.599mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (499.224mm,122.506mm)(501.424mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (499.224mm,124.656mm)(501.424mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (505.075mm,122.506mm)(507.275mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (505.075mm,124.656mm)(507.275mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (510.65mm,122.506mm)(512.85mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (510.65mm,124.656mm)(512.85mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (516.25mm,122.506mm)(518.45mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (516.25mm,124.656mm)(518.45mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (521.826mm,122.506mm)(524.026mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (521.826mm,124.656mm)(524.026mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (527.426mm,122.506mm)(529.626mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (527.426mm,124.656mm)(529.626mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (533.001mm,122.506mm)(535.201mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (533.001mm,124.656mm)(535.201mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (538.851mm,122.506mm)(541.051mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (538.851mm,124.656mm)(541.051mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (543.902mm,119.906mm)(543.902mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (543.902mm,119.906mm)(546.702mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (543.902mm,123.106mm)(546.702mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (545.245mm,123.506mm)(545.245mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (546.702mm,119.906mm)(546.702mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (549.502mm,119.906mm)(549.502mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (549.502mm,119.906mm)(552.302mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (549.502mm,123.106mm)(552.302mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (550.845mm,123.506mm)(550.845mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (552.302mm,119.906mm)(552.302mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (555.102mm,119.906mm)(555.102mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (555.102mm,119.906mm)(557.902mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (555.102mm,123.106mm)(557.902mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (556.445mm,123.506mm)(556.445mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (557.902mm,119.906mm)(557.902mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (560.677mm,119.906mm)(560.677mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (560.677mm,119.906mm)(563.477mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (560.677mm,123.106mm)(563.477mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (562.02mm,123.506mm)(562.02mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (563.477mm,119.906mm)(563.477mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (566.278mm,119.906mm)(566.278mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (566.278mm,119.906mm)(569.078mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (566.278mm,123.106mm)(569.078mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (567.621mm,123.506mm)(567.621mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (569.078mm,119.906mm)(569.078mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (571.878mm,119.906mm)(571.878mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (571.878mm,119.906mm)(574.678mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (571.878mm,123.106mm)(574.678mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (573.221mm,123.506mm)(573.221mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (574.678mm,119.906mm)(574.678mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (577.728mm,119.906mm)(577.728mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (577.728mm,119.906mm)(580.528mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (577.728mm,123.106mm)(580.528mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (579.071mm,123.506mm)(579.071mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (580.528mm,119.906mm)(580.528mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (583.079mm,119.906mm)(583.079mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (583.079mm,119.906mm)(585.879mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (583.079mm,123.106mm)(585.879mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (584.422mm,123.506mm)(584.422mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (585.879mm,119.906mm)(585.879mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (587.404mm,119.906mm)(587.404mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (587.404mm,119.906mm)(590.204mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (587.404mm,123.106mm)(590.204mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (588.747mm,123.506mm)(588.747mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (590.204mm,119.906mm)(590.204mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (591.729mm,119.906mm)(591.729mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (591.729mm,119.906mm)(594.529mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (591.729mm,123.106mm)(594.529mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (593.072mm,123.506mm)(593.072mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (594.529mm,119.906mm)(594.529mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (597.329mm,119.906mm)(597.329mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (597.329mm,119.906mm)(600.129mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (597.329mm,123.106mm)(600.129mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (598.672mm,123.506mm)(598.672mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (600.129mm,119.906mm)(600.129mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (602.404mm,119.906mm)(602.404mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (602.404mm,119.906mm)(605.204mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (602.404mm,123.106mm)(605.204mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (603.747mm,123.506mm)(603.747mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (605.204mm,119.906mm)(605.204mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (608.005mm,119.906mm)(608.005mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (608.005mm,119.906mm)(610.805mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (608.005mm,123.106mm)(610.805mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (609.348mm,123.506mm)(609.348mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (610.805mm,119.906mm)(610.805mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (613.605mm,119.906mm)(613.605mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (613.605mm,119.906mm)(616.405mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (613.605mm,123.106mm)(616.405mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (614.948mm,123.506mm)(614.948mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (616.405mm,119.906mm)(616.405mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (619.48mm,122.506mm)(621.68mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (619.48mm,124.656mm)(621.68mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (623.805mm,122.506mm)(626.005mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (623.805mm,124.656mm)(626.005mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (628.106mm,122.506mm)(630.306mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (628.106mm,124.656mm)(630.306mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (633.706mm,122.506mm)(635.906mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (633.706mm,124.656mm)(635.906mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (638.781mm,122.506mm)(640.981mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (638.781mm,124.656mm)(640.981mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (644.356mm,122.506mm)(646.556mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (644.356mm,124.656mm)(646.556mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (649.957mm,122.506mm)(652.157mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (649.957mm,124.656mm)(652.157mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (655.532mm,122.506mm)(657.732mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (655.532mm,124.656mm)(657.732mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (659.857mm,122.506mm)(662.057mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (659.857mm,124.656mm)(662.057mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (664.182mm,122.506mm)(666.382mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (664.182mm,124.656mm)(666.382mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (668.483mm,122.506mm)(670.683mm,122.506mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (668.483mm,124.656mm)(670.683mm,124.656mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (672.533mm,119.906mm)(672.533mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (672.533mm,119.906mm)(675.333mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (672.533mm,123.106mm)(675.333mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (673.876mm,123.506mm)(673.876mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (675.333mm,119.906mm)(675.333mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (676.858mm,119.906mm)(676.858mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (676.858mm,119.906mm)(679.658mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (676.858mm,123.106mm)(679.658mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (678.201mm,123.506mm)(678.201mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (679.658mm,119.906mm)(679.658mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (681.183mm,119.906mm)(681.183mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (681.183mm,119.906mm)(683.983mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (681.183mm,123.106mm)(683.983mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (682.526mm,123.506mm)(682.526mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (683.983mm,119.906mm)(683.983mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (685.509mm,119.906mm)(685.509mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (685.509mm,119.906mm)(688.309mm,119.906mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (685.509mm,123.106mm)(688.309mm,123.106mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (686.852mm,123.506mm)(686.852mm,124.506mm) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (688.309mm,119.906mm)(688.309mm,123.106mm) on Bottom Overlay 
-Rule Violations :307
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Area Fill (379.602mm,201.175mm) (380.11mm,202.762mm) on Bottom Overlay And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C10-1(370.05mm,142.3mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C10-2(370.05mm,143.8mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C11-1(370.05mm,147.875mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C11-2(370.05mm,149.375mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C12-1(370.05mm,152.95mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C12-2(370.05mm,154.45mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C13-1(370.05mm,158.551mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C13-2(370.05mm,160.051mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C14-1(370.05mm,164.126mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C14-2(370.05mm,165.626mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C15-1(370.175mm,170.194mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C15-2(370.175mm,171.694mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C16-1(370.175mm,175.769mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C16-2(370.175mm,177.269mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C17-1(370.175mm,181.369mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C17-2(370.175mm,182.869mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C18-1(370.175mm,186.945mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C18-2(370.175mm,188.445mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C19-1(370.175mm,192.545mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C19-2(370.175mm,194.045mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C20-1(370.175mm,198.12mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C20-2(370.175mm,199.62mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C21-1(370.175mm,203.97mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C21-2(370.175mm,205.47mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C22-1(370.381mm,208.744mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C22-2(370.381mm,210.244mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C23-1(369.906mm,213.794mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C23-2(369.906mm,215.294mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C4-1(369.9mm,116.401mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C4-2(369.9mm,117.901mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C5-1(369.9mm,120.701mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C5-2(369.9mm,122.201mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C6-1(369.9mm,125.026mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C6-2(369.9mm,126.526mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C7-1(369.9mm,129.352mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C7-2(369.9mm,130.852mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C8-1(370.05mm,133.649mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C8-2(370.05mm,135.149mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C9-1(370.05mm,137.975mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C9-2(370.05mm,139.475mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad D1-1(379.825mm,203.925mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad D1-2(379.825mm,200.775mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-(344.525mm,154.275mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-1(341.899mm,155.057mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-2(341.899mm,153.307mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-3(347.125mm,153.307mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J13-4(347.125mm,155.057mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-(347.075mm,167.575mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-1(349.701mm,166.793mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-2(349.701mm,168.543mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-3(344.475mm,168.543mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J14-4(344.475mm,166.793mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-(347.219mm,172.777mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-1(349.845mm,171.995mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-2(349.845mm,173.745mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-3(344.619mm,173.745mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J15-4(344.619mm,171.995mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-(346.9mm,178.1mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-1(349.526mm,177.318mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-2(349.526mm,179.068mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-3(344.3mm,179.068mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J16-4(344.3mm,177.318mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-(347.219mm,183.952mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-1(349.845mm,183.17mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-2(349.845mm,184.92mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-3(344.619mm,184.92mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J17-4(344.619mm,183.17mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-(347.219mm,189.552mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-1(349.845mm,188.77mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-2(349.845mm,190.52mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-3(344.619mm,190.52mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J18-4(344.619mm,188.77mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-(347.219mm,195.153mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-1(349.845mm,194.371mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-2(349.845mm,196.121mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-3(344.619mm,196.121mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J19-4(344.619mm,194.371mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-(347.219mm,200.753mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-1(349.845mm,199.971mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-2(349.845mm,201.721mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-3(344.619mm,201.721mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J20-4(344.619mm,199.971mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-(347.219mm,206.603mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-1(349.845mm,205.821mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-2(349.845mm,207.571mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-3(344.619mm,207.571mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J21-4(344.619mm,205.821mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-(347.3mm,211.55mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-1(349.926mm,210.768mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-2(349.926mm,212.518mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-3(344.7mm,212.518mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J22-4(344.7mm,210.768mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-(347.225mm,216.525mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-1(349.851mm,215.743mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-2(349.851mm,217.493mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-3(344.625mm,217.493mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad J23-4(344.625mm,215.743mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R1-1(426.75mm,276.175mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R1-2(428.65mm,276.175mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C10" (368.107mm,141.792mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C11" (368.107mm,147.368mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C12" (368.107mm,152.443mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C13" (368.107mm,158.043mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C14" (368.107mm,163.618mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C15" (368.232mm,169.686mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C16" (368.232mm,175.262mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C17" (368.232mm,180.862mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C18" (368.232mm,186.437mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C19" (368.232mm,192.038mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C20" (368.232mm,197.613mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C21" (368.232mm,203.463mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C22" (368.438mm,208.237mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C23" (367.963mm,213.287mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C4" (367.957mm,115.894mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C5" (367.957mm,120.194mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C6" (367.957mm,124.519mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C7" (367.957mm,128.844mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C8" (368.107mm,133.142mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C9" (368.107mm,137.467mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "D1" (380.467mm,205.257mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "D12" (386.842mm,166.649mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J13" (348.74mm,155.488mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J14" (342.86mm,166.362mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J15" (343.004mm,171.564mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J16" (342.685mm,176.887mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J17" (343.004mm,182.739mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J18" (343.004mm,188.34mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J19" (343.004mm,193.94mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J20" (343.004mm,199.54mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J21" (343.004mm,205.39mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J22" (343.085mm,210.337mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "J23" (343.01mm,215.312mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R1" (430.659mm,275.288mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "U1" (384.81mm,249.631mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (343.9mm,178.043mm)(344.9mm,178.043mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.075mm,167.518mm)(345.075mm,167.518mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.219mm,172.72mm)(345.219mm,172.72mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.219mm,183.895mm)(345.219mm,183.895mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.219mm,189.495mm)(345.219mm,189.495mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.219mm,195.096mm)(345.219mm,195.096mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.219mm,200.696mm)(345.219mm,200.696mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.219mm,206.546mm)(345.219mm,206.546mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.225mm,216.468mm)(345.225mm,216.468mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (344.3mm,211.493mm)(345.3mm,211.493mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (346.525mm,154.332mm)(347.525mm,154.332mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.825mm,116.051mm)(368.825mm,118.251mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.825mm,120.351mm)(368.825mm,122.551mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.825mm,124.676mm)(368.825mm,126.876mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.825mm,129.002mm)(368.825mm,131.202mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.831mm,213.444mm)(368.831mm,215.644mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.975mm,133.299mm)(368.975mm,135.499mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.975mm,137.625mm)(368.975mm,139.825mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.975mm,141.95mm)(368.975mm,144.15mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.975mm,147.525mm)(368.975mm,149.725mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.975mm,152.6mm)(368.975mm,154.8mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.975mm,158.201mm)(368.975mm,160.401mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (368.975mm,163.776mm)(368.975mm,165.976mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.1mm,169.844mm)(369.1mm,172.044mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.1mm,175.419mm)(369.1mm,177.619mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.1mm,181.019mm)(369.1mm,183.219mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.1mm,186.595mm)(369.1mm,188.795mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.1mm,192.195mm)(369.1mm,194.395mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.1mm,197.77mm)(369.1mm,199.97mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.1mm,203.62mm)(369.1mm,205.82mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (369.306mm,208.394mm)(369.306mm,210.594mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (370.975mm,116.051mm)(370.975mm,118.251mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (370.975mm,120.351mm)(370.975mm,122.551mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (370.975mm,124.676mm)(370.975mm,126.876mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (370.975mm,129.002mm)(370.975mm,131.202mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (370.981mm,213.444mm)(370.981mm,215.644mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.125mm,133.299mm)(371.125mm,135.499mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.125mm,137.625mm)(371.125mm,139.825mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.125mm,141.95mm)(371.125mm,144.15mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.125mm,147.525mm)(371.125mm,149.725mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.125mm,152.6mm)(371.125mm,154.8mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.125mm,158.201mm)(371.125mm,160.401mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.125mm,163.776mm)(371.125mm,165.976mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.25mm,169.844mm)(371.25mm,172.044mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.25mm,175.419mm)(371.25mm,177.619mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.25mm,181.019mm)(371.25mm,183.219mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.25mm,186.595mm)(371.25mm,188.795mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.25mm,192.195mm)(371.25mm,194.395mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.25mm,197.77mm)(371.25mm,199.97mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.25mm,203.62mm)(371.25mm,205.82mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (371.456mm,208.394mm)(371.456mm,210.594mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (379.05mm,201.715mm)(379.05mm,202.985mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (379.05mm,201.715mm)(380.6mm,201.715mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (380.6mm,201.715mm)(380.6mm,202.985mm) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (384.69mm,215.73mm)(384.69mm,248.75mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (384.69mm,248.75mm)(402.47mm,248.75mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (402.47mm,215.73mm)(402.47mm,248.75mm) on Top Overlay 
+Rule Violations :192
+
+Processing Rule : Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design'))
+   Violation between Room Definition: Between Component ENC1-PEC12R-4225F-S0024 (469.6mm,224.551mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S10-PG151101S11 (375mm,161.883mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S11-PG151101S11 (394.05mm,161.883mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S12-PG151101S11 (413.1mm,161.883mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S13-PG151101S11 (432.15mm,161.883mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S14-PG151101S11 (451.193mm,171.37mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S15-PG151101S11 (375mm,142.858mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S16-PG151101S11 (394.05mm,142.858mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S17-PG151101S11 (413.1mm,142.858mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S18-PG151101S11 (432.15mm,142.873mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S19-PG151101S11 (451.193mm,133.243mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S1-PG151101S11 (375mm,200mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S20-PG151101S11 (375mm,123.808mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S21-PG151101S11 (394.05mm,123.808mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S22-PG151101S11 (413.1mm,123.808mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S23-PG151101S11 (432.15mm,123.808mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S2-PG151101S11 (394.05mm,200mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S3-PG151101S11 (413.1mm,200mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S4-PG151101S11 (432.15mm,200mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S5-PG151101S11 (375mm,180.958mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S6-PG151101S11 (394.05mm,180.958mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S7-PG151101S11 (413.1mm,180.958mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S8-PG151101S11 (432.15mm,180.958mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component S9-PG151101S11 (451.2mm,200mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Component SW2-TL1105SPF160Q (441.04mm,221.483mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between DIP Component U1-ProMicro (373.26mm,225.89mm) on Top Layer And Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SIP Component P1-Header 4 (437.23mm,242.975mm) on Top Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D10-1N4148W-7-F (443.25mm,182.85mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D11-1N4148W-7-F (463.3mm,201.55mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D1-1N4148W-7-F (379.825mm,202.35mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D12-1N4148W-7-F (386.2mm,163.75mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D13-1N4148W-7-F (404.68mm,163.49mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D14-1N4148W-7-F (424.675mm,163.9mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D15-1N4148W-7-F (443.5mm,163.7mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D16-1N4148W-7-F (463.525mm,172.65mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D17-1N4148W-7-F (389.95mm,143.975mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D18-1N4148W-7-F (408.95mm,143.975mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D19-1N4148W-7-F (427.95mm,143.975mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D20-1N4148W-7-F (446.975mm,143.75mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D21-1N4148W-7-F (466.229mm,134.435mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D2-1N4148W-7-F (405.619mm,201.05mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D22-1N4148W-7-F (389.95mm,125mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D23-1N4148W-7-F (408.95mm,125mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D24-1N4148W-7-F (427.95mm,125mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D25-1N4148W-7-F (446.9mm,124.775mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D3-1N4148W-7-F (423.286mm,201.05mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D4-1N4148W-7-F (450.575mm,233.725mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D5-1N4148W-7-F (458.388mm,233.754mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D6-1N4148W-7-F (443.025mm,201.45mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D7-1N4148W-7-F (386.325mm,182.825mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D8-1N4148W-7-F (405.775mm,182.575mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component D9-1N4148W-7-F (424.275mm,182.575mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Main_Design (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Main_Design')) And SMT Small Component R1-ERA6AEB511V (427.7mm,276.175mm) on Top Layer 
+Rule Violations :53
+
+Processing Rule : Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs'))
+   Violation between Room Definition: Between Component J10-4960 (397.315mm,163.642mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J11-4960 (408.565mm,162.8mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J13-4960 (340.625mm,153.875mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J14-4960 (350.975mm,167.975mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J1-4960 (397.315mm,201.665mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J15-4960 (351.119mm,173.177mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J16-4960 (350.8mm,178.5mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J17-4960 (351.119mm,184.352mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J18-4960 (351.119mm,189.952mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J19-4960 (351.119mm,195.553mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J20-4960 (351.119mm,201.153mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J21-4960 (351.119mm,207.003mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J22-4960 (351.2mm,211.95mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J23-4960 (351.125mm,216.925mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J2-4960 (408.565mm,200.869mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J3-4960 (427.615mm,200.857mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J4-4960 (446.665mm,200.883mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J5-4960 (397.315mm,182.705mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J6-4960 (408.565mm,181.875mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Component J9-4960 (473.515mm,202.013mm) on Top Layer And Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C10-C0805C104K5RACTU (370.05mm,143.05mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C11-C0805C104K5RACTU (370.05mm,148.625mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C12-C0805C104K5RACTU (370.05mm,153.7mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C13-C0805C104K5RACTU (370.05mm,159.301mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C14-C0805C104K5RACTU (370.05mm,164.876mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C15-C0805C104K5RACTU (370.175mm,170.944mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C16-C0805C104K5RACTU (370.175mm,176.519mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C17-C0805C104K5RACTU (370.175mm,182.119mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C18-C0805C104K5RACTU (370.175mm,187.695mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C19-C0805C104K5RACTU (370.175mm,193.295mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C1-C0805C104K5RACTU (409.575mm,242.375mm) on Bottom Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C20-C0805C104K5RACTU (370.175mm,198.87mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C21-C0805C104K5RACTU (370.175mm,204.72mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C22-C0805C104K5RACTU (370.381mm,209.494mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C23-C0805C104K5RACTU (369.906mm,214.544mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C2-C0805C104K5RACTU (424.25mm,242.35mm) on Bottom Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C3-C0805C104K5RACTU (458.325mm,243.4mm) on Bottom Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C4-C0805C104K5RACTU (369.9mm,117.151mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C5-C0805C104K5RACTU (369.9mm,121.451mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C6-C0805C104K5RACTU (369.9mm,125.776mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C7-C0805C104K5RACTU (369.9mm,130.102mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C8-C0805C104K5RACTU (370.05mm,134.399mm) on Top Layer 
+   Violation between Room Definition: Between Room InSwitchLEDs (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('InSwitchLEDs')) And SMT Small Component C9-C0805C104K5RACTU (370.05mm,138.725mm) on Top Layer 
+Rule Violations :43
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
 Rule Violations :0
@@ -556,4 +562,4 @@ Rule Violations :0
 
 Violations Detected : 500
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

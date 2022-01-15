@@ -1,0 +1,11 @@
+Added Component: Designator=S23(SW_PG151101S11)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/4218555/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Col4 Pin=S23-1
+Added Pin To Net: NetName=NetD25_1 Pin=S23-2
+Added Member To Class: ClassName=Main_Design Member=Component S23 PG151101S11

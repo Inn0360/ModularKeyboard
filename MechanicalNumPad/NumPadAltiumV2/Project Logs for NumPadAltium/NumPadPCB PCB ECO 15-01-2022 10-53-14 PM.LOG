@@ -1,0 +1,18 @@
+Added Component: Designator=J12(PCBComponent_1)
+Added Pin To Net: NetName=NetC7_1 Pin=J7-1
+Added Pin To Net: NetName=NetJ7_2 Pin=J7-2
+Added Pin To Net: NetName=GND Pin=J7-3
+Added Pin To Net: NetName=NetJ6_2 Pin=J7-4
+Added Pin To Net: NetName=NetC8_1 Pin=J8-1
+Added Pin To Net: NetName=NetJ8_2 Pin=J8-2
+Added Pin To Net: NetName=GND Pin=J8-3
+Added Pin To Net: NetName=NetJ8_4 Pin=J8-4
+Added Pin To Net: NetName=NetC12_1 Pin=J12-1
+Added Pin To Net: NetName=NetJ11_4 Pin=J12-2
+Added Pin To Net: NetName=GND Pin=J12-3
+Added Pin To Net: NetName=NetJ12_4 Pin=J12-4
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J7 4960
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J8 4960
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J12 4960
+Added Room: Name=InSwitchLEDs
+Added Room: Name=Main_Design
