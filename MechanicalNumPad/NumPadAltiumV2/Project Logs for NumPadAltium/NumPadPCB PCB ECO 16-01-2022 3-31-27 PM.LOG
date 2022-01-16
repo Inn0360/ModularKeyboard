@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetC2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=NetJ1_2 Pin=J2-4
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J2 4960
