@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=Row4 Pin=D25-2
+Removed Pin From Net: NetName=Col4 Pin=S24-1
+Removed Member From Class: ClassName=Main_Design Member=D25
+Removed Member From Class: ClassName=Main_Design Member=S24
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J22 4960
+Added Member To Class: ClassName=Main_Design Member=Component S4 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S6 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S7 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S9 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S10 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S11 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S13 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S15 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S16 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S18 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S19 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S20 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S22 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S23 PG151101S11
