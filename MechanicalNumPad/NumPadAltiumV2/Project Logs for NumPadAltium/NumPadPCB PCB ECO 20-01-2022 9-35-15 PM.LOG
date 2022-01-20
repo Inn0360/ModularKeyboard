@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=En_B Pin=U1-18
+Removed Pin From Net: NetName=En_A Pin=U1-19
+Added Pin To Net: NetName=En_A Pin=U1-18
+Added Pin To Net: NetName=En_B Pin=U1-19
+Added Room: Name=InSwitchLEDs
+Added Room: Name=Main_Design

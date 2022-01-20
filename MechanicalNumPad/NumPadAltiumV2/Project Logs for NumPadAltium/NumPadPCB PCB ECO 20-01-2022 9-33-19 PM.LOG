@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=Col0 Pin=U1-13
+Removed Pin From Net: NetName=Col1 Pin=U1-14
+Removed Pin From Net: NetName=Col3 Pin=U1-16
+Removed Pin From Net: NetName=Col4 Pin=U1-17
+Added Pin To Net: NetName=Col4 Pin=U1-13
+Added Pin To Net: NetName=Col3 Pin=U1-14
+Added Pin To Net: NetName=Col1 Pin=U1-16
+Added Pin To Net: NetName=Col0 Pin=U1-17
+Added Member To Class: ClassName=InSwitchLEDs Member=Component C11 C0805C104K5RACTU
+Added Member To Class: ClassName=Main_Design Member=Component S12 PG151101S11
