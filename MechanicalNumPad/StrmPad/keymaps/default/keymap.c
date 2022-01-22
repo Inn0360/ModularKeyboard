@@ -47,7 +47,8 @@ enum layers {
     _BL,
     _FN,
     _GH,
-    _F12
+    _F12,
+    _MOD
 };
 
 enum custom_keycodes {
@@ -57,7 +58,9 @@ enum custom_keycodes {
     GITCOMMIT,
     GITSTATUS,
     GITADD,
-    GITINIT
+    GITINIT,
+    KEYHOLDF,
+    KEYHOLDMOUSE
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -94,7 +97,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_PGDN, KC_TRNS, KC_TRNS,KC_TRNS
   ),
   [_GH] = LAYOUT(
-    TO(_BL), KC_TRNS, KC_TRNS,
+    TO(_MOD), KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS,
     GITPUSH, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     GITPULL, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
@@ -109,9 +112,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     TO(_GH), KC_F4, KC_F5,KC_F6, KC_TRNS,
     KC_TRNS, KC_F1, KC_F2,KC_F3
   )
-
+  [_MOD] = LAYOUT(
+    TO(_BL), KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS,
+    KEYHOLDF, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    KEYHOLDMOUSE, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    GITADD, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    GITCOMMIT, KC_TRNS, KC_TRNS,KC_TRNS
+  )
 };
 
+int depress = 0;
+int toggle = 0;
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case KC_DBL0:
@@ -163,6 +175,33 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 ;
             }
             break;
+    case KEYHOLDF:
+      if (record -> event.pressed)
+        if(depress == 0) {
+          depress = 1;
+          SEND_STRING(SS_DOWN(X_F));
+        } else if( depress == 1){
+          depress = 0;
+          SEND_STRING(SS_UP(X_F));
+        } else {
+          depress = 0;
+          SEND_STRING(SS_UP(X_F));
+        }
+      break;
+    case KEYHOLDMOUSE:
+      if (record->event.pressed)
+        if(toggle == 0){
+          toggle = 1;
+          while (toggle == 1){
+            SEND_STRING(SS_TAP(X_BTN1) SS_DELAY(500))
+            if(record->event.pressed) {
+              toggle = 0;
+            }
+          }
+        } else (
+          toggle = 0;
+        )
+      break;
     }
     return true;
 };
