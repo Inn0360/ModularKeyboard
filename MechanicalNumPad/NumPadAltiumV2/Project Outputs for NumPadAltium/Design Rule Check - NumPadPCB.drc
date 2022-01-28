@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\GitHub Docs\ModularKeyboard\MechanicalNumPad\NumPadAltiumV2\NumPadPCB.PcbDoc
-Date     : 20/01/2022
-Time     : 11:25:08 PM
+Date     : 28/01/2022
+Time     : 10:39:52 PM
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
 Rule Violations :0
@@ -54,4 +54,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01

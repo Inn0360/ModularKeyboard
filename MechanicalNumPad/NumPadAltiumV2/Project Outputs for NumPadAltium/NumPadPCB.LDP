@@ -1,3 +1,4 @@
-Layer Pairs Export File for PCB: D:\GitDocs\ModularKeyboard\MechanicalNumPad\NumPadAltium\NumPadPCB.PcbDoc
+Layer Pairs Export File for PCB: E:\GitHub Docs\ModularKeyboard\MechanicalNumPad\NumPadAltiumV2\NumPadPCB.PcbDoc
 LayersSetName=Top_Bot_Thru_Holes|DrillFile=numpadpcb-roundholes.txt|DrillLayers=gtl,gbl
 LayersSetName=Top_Bot_Slot_Holes|DrillFile=numpadpcb-slotholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=numpadpcb-rectholes.txt|DrillLayers=gtl,gbl

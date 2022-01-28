@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=Encode_Out Pin=D5-1
+Removed Pin From Net: NetName=Col4 Pin=S9-1
+Removed Pin From Net: NetName=NetD10_1 Pin=S9-2
+Removed Pin From Net: NetName=Col4 Pin=S14-1
+Change Component Designator: OldDesignator=S5 NewDesignator=S6
+Change Component Designator: OldDesignator=S6 NewDesignator=S7
+Change Component Designator: OldDesignator=S7 NewDesignator=S8
+Change Component Designator: OldDesignator=S8 NewDesignator=S9
+Change Component Designator: OldDesignator=S10 NewDesignator=S11
+Change Component Designator: OldDesignator=S11 NewDesignator=S12
+Change Component Designator: OldDesignator=S12 NewDesignator=S13
+Change Component Designator: OldDesignator=S13 NewDesignator=S14
+Added Component: Designator=S5(SW_PG151101S11)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/4218555/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=S10(SW_PG151101S11)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/4218555/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Encode_Out Pin=D15-1
+Added Pin To Net: NetName=Col4 Pin=S5-1
+Added Pin To Net: NetName=Col4 Pin=S10-1
+Added Pin To Net: NetName=NetD10_1 Pin=S10-2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=S5-2
+Added Net: Name=NetD5_1
+Added Member To Class: ClassName=Main_Design Member=Component S9 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S14 PG151101S11
+Added Room: Name=InSwitchLEDs
+Added Room: Name=Main_Design

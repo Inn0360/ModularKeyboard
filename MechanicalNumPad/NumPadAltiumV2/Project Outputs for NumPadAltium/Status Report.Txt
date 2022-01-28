@@ -3,11 +3,12 @@ Type  : NC Drill
 From  : Project [NumPadAltium.PrjPcb]
    Generated File[NumPadPCB-RoundHoles.TXT]
    Generated File[NumPadPCB-SlotHoles.TXT]
+   Generated File[NumPadPCB-RectHoles.TXT]
    Generated File[NumPadPCB.LDP]
    Generated File[NumPadPCB.DRR]
 
 
-Files Generated   : 4
+Files Generated   : 5
 Documents Printed : 0
 
-Finished Output Generation At 10:29:20 PM On 6/12/2021
+Finished Output Generation At 10:44:13 PM On 28/01/2022
