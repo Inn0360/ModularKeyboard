@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=NetJ8_2 Pin=J15-4
+Removed Pin From Net: NetName=NetC23_1 Pin=J22-1
+Removed Pin From Net: NetName=NetC22_1 Pin=J23-1
+Added Pin To Net: NetName=NetJ8_2 Pin=J9-4
+Added Pin To Net: NetName=NetC22_1 Pin=J22-1
+Added Pin To Net: NetName=NetC23_1 Pin=J23-1
+Added Pin To Net: NetName=LED1 Pin=J7-2
+Added Pin To Net: NetName=LED1 Pin=J8-4
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=J14-2
+Added Pin To Net: NetName=LED2 Pin=J15-4
+Added Net: Name=LED2
+Added Pin To Net: NetName=LED3 Pin=J21-2
+Added Pin To Net: NetName=LED3 Pin=J22-4
+Added Net: Name=LED3
+Added Pin To Net: NetName=NetJ9_2 Pin=J9-2
+Added Pin To Net: NetName=NetJ9_2 Pin=J10-4
+Added Net: Name=NetJ9_2
+Added Pin To Net: NetName=NetJ10_2 Pin=J10-2
+Added Pin To Net: NetName=NetJ10_2 Pin=J11-4
+Added Net: Name=NetJ10_2
+Added Pin To Net: NetName=NetJ11_2 Pin=J11-2
+Added Pin To Net: NetName=NetJ11_2 Pin=J12-4
+Added Net: Name=NetJ11_2
+Added Pin To Net: NetName=NetJ12_2 Pin=J12-2
+Added Pin To Net: NetName=NetJ12_2 Pin=J13-4
+Added Net: Name=NetJ12_2
+Added Pin To Net: NetName=NetJ13_2 Pin=J13-2
+Added Pin To Net: NetName=NetJ13_2 Pin=J14-4
+Added Net: Name=NetJ13_2
+Added Pin To Net: NetName=NetJ22_2 Pin=J22-2
+Added Pin To Net: NetName=NetJ22_2 Pin=J23-4
+Added Net: Name=NetJ22_2

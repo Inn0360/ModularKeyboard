@@ -1,0 +1,51 @@
+Change Component Designator: OldDesignator=J22 NewDesignator=J23
+Change Component Designator: OldDesignator=J23 NewDesignator=J22
+Change Component Designator: OldDesignator=S4 NewDesignator=S5
+Change Component Designator: OldDesignator=S5 NewDesignator=S6
+Change Component Designator: OldDesignator=S6 NewDesignator=S7
+Change Component Designator: OldDesignator=S7 NewDesignator=S8
+Change Component Designator: OldDesignator=S8 NewDesignator=S9
+Change Component Designator: OldDesignator=S9 NewDesignator=S10
+Change Component Designator: OldDesignator=S10 NewDesignator=S11
+Change Component Designator: OldDesignator=S11 NewDesignator=S12
+Change Component Designator: OldDesignator=S12 NewDesignator=S13
+Change Component Designator: OldDesignator=S13 NewDesignator=S14
+Change Component Designator: OldDesignator=S14 NewDesignator=S15
+Change Component Designator: OldDesignator=S15 NewDesignator=S16
+Change Component Designator: OldDesignator=S16 NewDesignator=S17
+Change Component Designator: OldDesignator=S17 NewDesignator=S18
+Change Component Designator: OldDesignator=S18 NewDesignator=S19
+Change Component Designator: OldDesignator=S19 NewDesignator=S20
+Change Component Designator: OldDesignator=S20 NewDesignator=S21
+Change Component Designator: OldDesignator=S21 NewDesignator=S22
+Change Component Designator: OldDesignator=S22 NewDesignator=S23
+Change Component Designator: OldDesignator=S23 NewDesignator=S24
+Added Component: Designator=S4(SW_PG151101S11)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Kailh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PG151101S11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PG151101S11/Kailh/view-part/4218555/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Col3 Pin=S4-1
+Added Pin To Net: NetName=NetD4_1 Pin=S4-2
+Change Net Name : Old Net Name=NetJ22_2 New Net Name=NetJ22_4
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J23 4960
+Added Member To Class: ClassName=Main_Design Member=Component S4 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S6 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S7 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S9 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S10 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S11 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S13 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S15 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S16 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S18 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S19 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S20 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S22 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S23 PG151101S11
+Added Member To Class: ClassName=Main_Design Member=Component S24 PG151101S11
+Added Room: Name=InSwitchLEDs
+Added Room: Name=Main_Design

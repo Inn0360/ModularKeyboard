@@ -1,0 +1,20 @@
+Added Pin To Net: NetName=NetC11_1 Pin=J11-1
+Added Pin To Net: NetName=NetJ10_4 Pin=J11-2
+Added Pin To Net: NetName=GND Pin=J11-3
+Added Pin To Net: NetName=NetJ11_4 Pin=J11-4
+Added Pin To Net: NetName=NetC12_1 Pin=J12-1
+Added Pin To Net: NetName=NetJ11_4 Pin=J12-2
+Added Pin To Net: NetName=GND Pin=J12-3
+Added Pin To Net: NetName=NetJ12_4 Pin=J12-4
+Added Pin To Net: NetName=NetC13_1 Pin=J13-1
+Added Pin To Net: NetName=NetJ12_4 Pin=J13-2
+Added Pin To Net: NetName=GND Pin=J13-3
+Added Pin To Net: NetName=NetJ13_4 Pin=J13-4
+Added Pin To Net: NetName=NetC14_1 Pin=J14-1
+Added Pin To Net: NetName=NetJ13_4 Pin=J14-2
+Added Pin To Net: NetName=GND Pin=J14-3
+Added Pin To Net: NetName=NetJ7_2 Pin=J14-4
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J11 4960
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J12 4960
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J13 4960
+Added Member To Class: ClassName=InSwitchLEDs Member=Component J14 4960

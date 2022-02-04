@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=U2 NewDesignator=J1
+Change Component Designator: OldDesignator=U3 NewDesignator=J2
+Change Component Designator: OldDesignator=U4 NewDesignator=J3
+Change Net Name : Old Net Name=NetU2_2 New Net Name=NetJ1_2
+Change Net Name : Old Net Name=NetU3_2 New Net Name=NetJ2_2
+Added Room: Name=Main_Design

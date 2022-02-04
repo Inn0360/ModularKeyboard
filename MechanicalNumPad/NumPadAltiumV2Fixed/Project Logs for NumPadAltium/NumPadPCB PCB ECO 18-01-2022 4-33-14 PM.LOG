@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=VCC Pin=C4-2
+Added Pin To Net: NetName=Col3 Pin=S23-1
+Added Pin To Net: NetName=NetD24_1 Pin=S23-2
+Added Member To Class: ClassName=InSwitchLEDs Member=Component C4 C0805C104K5RACTU
+Added Member To Class: ClassName=Main_Design Member=Component S23 PG151101S11
+Added Room: Name=Main_Design
