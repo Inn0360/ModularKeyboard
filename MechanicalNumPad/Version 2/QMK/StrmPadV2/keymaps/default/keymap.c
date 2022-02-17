@@ -207,25 +207,37 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
   return true;
 };
 void suspend_power_down_user(void) {
-    rgb_matrix_set_color_all(0, 0, 0);
-    rgb_matrix_set_suspend_state(true);
+  rgb_matrix_set_color_all(0,0,0);
+  rgb_matrix_disable();
+  rgb_matrix_set_suspend_state(true);
 }
 
 void suspend_wakeup_init_user(void) {
-    rgb_matrix_set_suspend_state(false);
+  rgb_matrix_set_suspend_state(false);
+  rgb_matrix_enable();
 }
 
 void rgb_matrix_indicators_user(void) {
     switch (get_highest_layer(layer_state)) {
         case _BL:
-          rgb_matrix_set_color(22, 39, 39,39);
+          rgb_matrix_set_color(0, 18, 18,18);
+          rgb_matrix_set_color(4, 18, 18, 18);
+          rgb_matrix_set_color(18, 18, 18, 18);
+          rgb_matrix_set_color(22, 18, 18, 18);
+
           break;
         case _RGB:
-          rgb_matrix_set_color(22, 0, 32,0);
+          rgb_matrix_set_color(0, 0, 16,0);
+          rgb_matrix_set_color(4, 0, 16,0);
+          rgb_matrix_set_color(18, 0, 16, 0);
+          rgb_matrix_set_color(22, 0, 16,0);
 
           break;
         case _F12:
-          rgb_matrix_set_color(22, 32, 0,0);
+          rgb_matrix_set_color(0, 16, 0, 0);
+          rgb_matrix_set_color(4, 16, 0, 0);
+          rgb_matrix_set_color(18, 16, 0, 0);
+          rgb_matrix_set_color(22, 16, 0,0);
 
           break;
     }
