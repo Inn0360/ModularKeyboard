@@ -45,7 +45,7 @@ SOFTWARE.
 // entirely and just use numbers.
 enum layers {
     _BL,
-    _FN,
+    _RGB,
     _GH,
     _F12,
     _MOD
@@ -68,35 +68,31 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 
   [_BL] = LAYOUT(
-    TO(_FN), KC_KP_SLASH,KC_KP_ASTERISK, 
-    TO(_F12), KC_MUTE, /* Buttons 03/04 */
-    KC_MNXT, KC_P7, KC_P8, KC_P9, KC_KP_MINUS,
-    KC_MPRV, KC_P4, KC_P5, KC_P6, KC_KP_PLUS,
+    TO(_RGB), TO(_F12), KC_KP_SLASH,KC_KP_ASTERISK, KC_KP_MINUS, /* Buttons 03/04 */
+    KC_MNXT, KC_P7, KC_P8, KC_P9, KC_KP_PLUS,
+    KC_MPRV, KC_P4, KC_P5, KC_P6, KC_MUTE,
     KC_MPLY, KC_P1, KC_P2, KC_P3, KC_PENT,
-    KC_F24, KC_F23, KC_0, KC_PDOT
+    KC_F24, RGB_TOG, KC_0, KC_PDOT
   ),
-  [_FN] = LAYOUT(
-    TO(_GH), KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS,
-    KC_HOME, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
-    KC_END, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
-    KC_PGUP, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
-    KC_PGDN, KC_TRNS, KC_TRNS,KC_TRNS
+  [_RGB] = LAYOUT(
+    TO(_BL), KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    RGB_VAI, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    RGB_VAD, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    RGB_MOD, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS, KC_TRNS,KC_TRNS
   ),
   [_GH] = LAYOUT(
-    TO(_MOD), KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS,
+    TO(_MOD), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
     GITPUSH, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     GITPULL, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     GITADD, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     GITCOMMIT, KC_TRNS, KC_TRNS,KC_TRNS
   ),
   [_F12] = LAYOUT(
-    KC_TRNS, KC_TRNS, KC_TRNS,
-    TO(_BL), KC_TRNS,
+    TO(_BL), KC_TRNS, KC_TRNS,KC_TRNS , KC_TRNS,
     TO(_BL), KC_F10, KC_F11,KC_F12, KC_TRNS,
-    TO(_FN), KC_F7, KC_F8,KC_F9, KC_TRNS,
-    TO(_GH), KC_F4, KC_F5,KC_F6, KC_TRNS,
+    TO(_RGB), KC_F7, KC_F8,KC_F9, KC_TRNS,
+    KC_TRNS, KC_F4, KC_F5,KC_F6, KC_TRNS,
     KC_TRNS, KC_F1, KC_F2,KC_F3
   )
   ,
@@ -210,7 +206,27 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
   }
   return true;
 };
+void suspend_power_down_user(void) {
+    rgb_matrix_set_color_all(0, 0, 0);
+    rgb_matrix_set_suspend_state(true);
+}
 
+void suspend_wakeup_init_user(void) {
+    rgb_matrix_set_suspend_state(false);
+}
 
+void rgb_matrix_indicators_user(void) {
+    switch (get_highest_layer(layer_state)) {
+        case _BL:
+          rgb_matrix_set_color(22, 39, 39,39);
+          break;
+        case _RGB:
+          rgb_matrix_set_color(22, 0, 32,0);
 
+          break;
+        case _F12:
+          rgb_matrix_set_color(22, 32, 0,0);
 
+          break;
+    }
+}

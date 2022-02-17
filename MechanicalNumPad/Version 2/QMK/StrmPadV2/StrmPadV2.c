@@ -46,9 +46,3 @@ led_config_t g_led_config = { {
 }};
 
 #endif
-
-void keyboard_post_init_user(void) {
-    //Calls the post init code
-    rgb_matrix_enable();
-
-}
