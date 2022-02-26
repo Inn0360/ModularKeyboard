@@ -48,7 +48,7 @@ enum layers {
     _RGB,
     _GH,
     _F12,
-    _MOD
+    _LEFTBOARD
 };
 
 enum custom_keycodes {
@@ -75,14 +75,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_F24, RGB_TOG, KC_0, KC_PDOT
   ),
   [_RGB] = LAYOUT(
-    TO(_BL), KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
+    TO(_LEFTBOARD), KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     RGB_VAI, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     RGB_VAD, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     RGB_MOD, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS, KC_TRNS,KC_TRNS
   ),
   [_GH] = LAYOUT(
-    TO(_MOD), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+    TO(_BL), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
     GITPUSH, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     GITPULL, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
     GITADD, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
@@ -93,16 +93,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     TO(_BL), KC_F10, KC_F11,KC_F12, KC_TRNS,
     TO(_RGB), KC_F7, KC_F8,KC_F9, KC_TRNS,
     KC_TRNS, KC_F4, KC_F5,KC_F6, KC_TRNS,
-    KC_TRNS, KC_F1, KC_F2,KC_F3
+    KC_TRNS, KC_F1, KC_LGUI,KC_F3
   )
   ,
-  [_MOD] = LAYOUT(
-    TO(_BL), KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS,
-    KEYHOLDF, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
-    KEYREPLAY100, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS, KC_TRNS,KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS, KC_TRNS,KC_TRNS
+  [_LEFTBOARD] = LAYOUT(
+    TO(_BL), KC_ESC, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TAB, KC_Q, KC_W,KC_E, KC_R,
+    KC_CAPS, KC_A, KC_S,KC_D, KC_TRNS, /* Right Most is Encoder */
+    KC_LSFT, KC_Z, KC_X,KC_C, KC_SPC,
+    KC_LCTL, KC_TRNS, KC_TRNS,KC_LALT
   )
 };
 
@@ -239,6 +238,9 @@ void rgb_matrix_indicators_user(void) {
           rgb_matrix_set_color(18, 16, 0, 0);
           rgb_matrix_set_color(22, 16, 0,0);
 
+          break;
+        case _LEFTBOARD:
+          rgb_matrix_set_color_all(16,0,0);
           break;
     }
 }
