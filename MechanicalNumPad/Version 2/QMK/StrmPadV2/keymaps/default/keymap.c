@@ -48,6 +48,7 @@ enum layers {
     _RGB,
     _GH,
     _F12,
+    _F12_2,
     _LEFTBOARD
 };
 
@@ -89,19 +90,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     GITCOMMIT, KC_TRNS, KC_TRNS,KC_TRNS
   ),
   [_F12] = LAYOUT(
-    TO(_BL), KC_TRNS, KC_TRNS,KC_TRNS , KC_TRNS,
-    TO(_BL), KC_F10, KC_F11,KC_F12, KC_TRNS,
+    TO(_BL), KC_TRNS, KC_TRNS,KC_TRNS , KC_LCTL,
+    TO(_BL), KC_F10, KC_F11,KC_F12, MO(_F12_2),
     TO(_RGB), KC_F7, KC_F8,KC_F9, KC_TRNS,
     KC_TRNS, KC_F4, KC_F5,KC_F6, KC_TRNS,
     KC_TRNS, KC_F1, KC_LGUI,KC_F3
   )
-  ,
+  ,[_F12_2] = LAYOUT(
+    TO(_BL), KC_TRNS, KC_TRNS,KC_TRNS , KC_LCTL,
+    TO(_BL), KC_F10, KC_F11,KC_F12, KC_TRNS,
+    TO(_RGB), KC_F7, KC_F8,KC_F9, KC_TRNS,
+    KC_TRNS, KC_F4, KC_F5,KC_F6, KC_TRNS,
+    KC_TRNS, KC_F1, KC_LGUI,KC_F3
+  ),
   [_LEFTBOARD] = LAYOUT(
-    TO(_BL), KC_ESC, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_ESC, KC_1, KC_2, KC_3, TO(_BL),
     KC_TAB, KC_Q, KC_W,KC_E, KC_R,
-    KC_CAPS, KC_A, KC_S,KC_D, KC_TRNS, /* Right Most is Encoder */
+    KC_CAPS, KC_A, KC_S,KC_D, KC_T, /* Right Most is Encoder */
     KC_LSFT, KC_Z, KC_X,KC_C, KC_SPC,
-    KC_LCTL, KC_TRNS, KC_TRNS,KC_LALT
+    KC_LCTL, KC_TRNS, KC_Z,KC_LALT
   )
 };
 
@@ -195,6 +202,20 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 };
 bool encoder_update_user(uint8_t index, bool clockwise) {
   switch(get_highest_layer(layer_state)) {
+    case _F12:
+      if(clockwise) {
+        tap_code(KC_MS_WH_UP);
+      } else {
+        tap_code(KC_MS_WH_DOWN);
+      }
+    break;
+    case _F12_2:
+      if (clockwise) {
+          tap_code(KC_WH_L);
+      } else {
+          tap_code(KC_WH_R);
+      }
+    break;
     default:
       if(clockwise) {
         tap_code(KC_VOLU);
