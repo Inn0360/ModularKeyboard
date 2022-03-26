@@ -43,24 +43,55 @@ SOFTWARE.
 // The underscores don't mean anything - you can have a layer called STUFF or any other name.
 // Layer names don't all need to be of the same length, obviously, and you can also skip them
 // entirely and just use numbers.
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 enum layers {
     _BL,
     _RGB,
-    _GH,
     _F12,
     _F12_2,
     _LEFTBOARD
 };
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Tap Dance Functions
+enum {
+  MUTE_DEAFEN,
+};
+
+//---------------------------------------RGB TIMER -----------------------------------------
+static uint16_t key_timer;                // timer to track the last keyboard activity
+static void     refresh_rgb(void);        // refreshes the activity timer and RGB, invoke whenever activity happens
+static void     check_rgb_timeout(void);  // checks if enough time has passed for RGB to timeout
+bool is_rgb_timeout = false;   // store if RGB has timed out or not in a boolean
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+void refresh_rgb() {
+    key_timer = timer_read();  // store time of last refresh
+    if (is_rgb_timeout) {      // only do something if rgb has timed out
+        is_rgb_timeout = false;
+        rgblight_enable();
+    }
+}
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+void check_rgb_timeout() {
+    if (!is_rgb_timeout && timer_elapsed(key_timer) > RGBLIGHT_TIMEOUT) {
+        rgblight_disable();
+        is_rgb_timeout = true;
+    }
+}
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Tap Dance definitions
+qk_tap_dance_action_t tap_dance_actions[] = {
+    // Tap once for Escape, twice for Caps Lock
+    [MUTE_DEAFEN] = ACTION_TAP_DANCE_DOUBLE(KC_F23, KC_F24),
+};
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 enum custom_keycodes {
-    KC_DBL0 = SAFE_RANGE,
-    GITPUSH,
-    GITPULL,
-    GITCOMMIT,
-    GITSTATUS,
-    GITADD,
-    GITINIT,
-    KEYHOLDF,
+    KEYHOLDF = SAFE_RANGE,
     KEYREPLAY100
 };
 
@@ -73,19 +104,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_MNXT, KC_P7, KC_P8, KC_P9, KC_KP_PLUS,
         KC_MPRV, KC_P4, KC_P5, KC_P6, KC_MUTE,
         KC_MPLY, KC_P1, KC_P2, KC_P3, KC_PENT,
-        KC_F24, RGB_TOG, KC_0, KC_PDOT),
+        TD(MUTE_DEAFEN), RGB_TOG, KC_0, KC_PDOT),
     [_RGB] = LAYOUT(
         TO(_LEFTBOARD), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         RGB_VAI, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         RGB_VAD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         RGB_MOD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
-    [_GH] = LAYOUT(
-        TO(_BL), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        GITPUSH, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        GITPULL, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        GITADD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        GITCOMMIT, KC_TRNS, KC_TRNS, KC_TRNS),
     [_F12] = LAYOUT(
         TO(_BL), KC_LEFT, KC_TRNS, KC_RIGHT, KC_LCTL,
         TO(_BL), KC_F10, KC_F11, KC_F12, MO(_F12_2),
@@ -104,58 +129,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_CAPS, KC_A, KC_S, KC_D, KC_T, /* Right Most is Encoder */
         KC_LSFT, KC_Z, KC_X, KC_C, KC_SPC,
         KC_LCTL, KC_TRNS, KC_Z, KC_LALT)};
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
-    case KC_DBL0:
-      if (record->event.pressed) {
-        SEND_STRING("00");
-      } else {
-        // when keycode KC_DBL0 is released
-      }
-      break;
-    case GITADD:
-        if (record->event.pressed) {
-            SEND_STRING("git add .\n");
-        } else {
-            ;
-        }
-        break;
-    case GITCOMMIT:
-        if (record->event.pressed) {
-            SEND_STRING("git commit -m");
-        } else {
-            ;
-        }
-        break;
-    case GITINIT:
-        if (record->event.pressed) {
-            SEND_STRING("git init");
-        } else {
-            ;
-        }
-        break;
-    case GITPULL:
-        if (record->event.pressed) {
-            SEND_STRING("git pull\n");
-        } else {
-            ;
-        }
-        break; 
-    case GITPUSH:
-        if (record->event.pressed) {
-            SEND_STRING("git push\n");
-        } else {
-            ;
-        }
-        break;
-    case GITSTATUS:
-            if (record->event.pressed) {
-                SEND_STRING("git status\n");
-            } else {
-                ;
-            }
-            break;
+
     case KEYHOLDF:
       if (record -> event.pressed){
           int h;
@@ -165,7 +143,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             wait_ms(1025);
           }
       }
-      break; 
+      break;
     case KEYREPLAY100:
       if(record -> event.pressed){
         int i;
@@ -175,7 +153,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           for(i = 0; i < 180; i++){
             //SEND_STRING(SS_DELAY(500) SS_TAP(X_BTN1));
             tap_code(KC_MS_R);
-          } 
+          }
           for(i = 0; i < 50; i++){
             tap_code(KC_MS_U);
           }
@@ -187,12 +165,30 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           for (i = 0; i < 50; i++) {
               tap_code(KC_MS_D);
           }
-        } 
+        }
       }
       break;
   }
     return true;
 };
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+void post_process_record_user(uint16_t keycode, keyrecord_t *record) {
+  #ifdef RGBLIGHT_TIMEOUT
+    if (record->event.pressed) {
+      refresh_rgb();
+    }
+  #endif
+}
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+void housekeeping_task_user(void) {
+  #ifdef RGBLIGHT_TIMEOUT
+      check_rgb_timeout();
+  #endif
+}
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 bool encoder_update_user(uint8_t index, bool clockwise) {
   switch(get_highest_layer(layer_state)) {
     case _F12:
@@ -216,19 +212,16 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
         tap_code(KC_VOLD);
       }
       break;
+
   }
+  #ifdef RGBLIGHT_TIMEOUT
+    refresh_rgb();
+  #endif
+
   return true;
 };
-void suspend_power_down_user(void) {
-  rgb_matrix_set_color_all(0,0,0);
-  rgb_matrix_disable();
-  rgb_matrix_set_suspend_state(true);
-}
 
-void suspend_wakeup_init_user(void) {
-  rgb_matrix_set_suspend_state(false);
-  rgb_matrix_enable();
-}
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void rgb_matrix_indicators_user(void) {
     switch (get_highest_layer(layer_state)) {
