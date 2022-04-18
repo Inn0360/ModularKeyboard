@@ -43,32 +43,29 @@ SOFTWARE.
 // The underscores don't mean anything - you can have a layer called STUFF or any other name.
 // Layer names don't all need to be of the same length, obviously, and you can also skip them
 // entirely and just use numbers.
-enum layers
-{
-  _BL,
-  _RGB,
-  _GH,
-  _F12,
-  _F12_2,
-  _LEFTBOARD
+enum layers {
+    _BL,
+    _RGB,
+    _GH,
+    _F12,
+    _F12_2,
+    _LEFTBOARD
 };
 
-enum custom_keycodes
-{
-  KC_DBL0 = SAFE_RANGE,
-  GITPUSH,
-  GITPULL,
-  GITCOMMIT,
-  GITSTATUS,
-  GITADD,
-  GITINIT,
-  KEYHOLDF,
-  KEYREPLAY100
+enum custom_keycodes {
+    KC_DBL0 = SAFE_RANGE,
+    GITPUSH,
+    GITPULL,
+    GITCOMMIT,
+    GITSTATUS,
+    GITADD,
+    GITINIT,
+    KEYHOLDF,
+    KEYREPLAY100
 };
 // Tap Dance Functions
-enum
-{
-  MUTE_DEAFEN,
+enum {
+    MUTE_DEAFEN,
 };
 
 // Tap Dance definitions
@@ -109,204 +106,159 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB, KC_Q, KC_W, KC_E, KC_R,
         KC_CAPS, KC_A, KC_S, KC_D, KC_T, /* Right Most is Encoder */
         KC_LSFT, KC_Z, KC_X, KC_C, KC_SPC,
-        KC_LCTL, KC_TRNS, KC_Z, KC_LALT)};
+        KC_LCTL, KC_TRNS, KC_Z, KC_LALT)
+    };
 
-bool process_record_user(uint16_t keycode, keyrecord_t *record)
-{
-  switch (keycode)
-  {
-  case KC_DBL0:
-    if (record->event.pressed)
-    {
-      SEND_STRING("00");
-    }
-    else
-    {
-      // when keycode KC_DBL0 is released
-    }
-    break;
-  case GITADD:
-    if (record->event.pressed)
-    {
-      SEND_STRING("git add .\n");
-    }
-    else
-    {
-      ;
-    }
-    break;
-  case GITCOMMIT:
-    if (record->event.pressed)
-    {
-      SEND_STRING("git commit -m");
-    }
-    else
-    {
-      ;
-    }
-    break;
-  case GITINIT:
-    if (record->event.pressed)
-    {
-      SEND_STRING("git init");
-    }
-    else
-    {
-      ;
-    }
-    break;
-  case GITPULL:
-    if (record->event.pressed)
-    {
-      SEND_STRING("git pull\n");
-    }
-    else
-    {
-      ;
-    }
-    break;
-  case GITPUSH:
-    if (record->event.pressed)
-    {
-      SEND_STRING("git push\n");
-    }
-    else
-    {
-      ;
-    }
-    break;
-  case GITSTATUS:
-    if (record->event.pressed)
-    {
-      SEND_STRING("git status\n");
-    }
-    else
-    {
-      ;
-    }
-    break;
-  case KEYHOLDF:
-    if (record->event.pressed)
-    {
-      int h;
-      for (h = 0; h < 15; h++)
-      {
-
-        SEND_STRING(SS_DOWN(X_F) SS_DELAY(1000) SS_UP(X_F));
-        wait_ms(1025);
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case KC_DBL0:
+      if (record->event.pressed) {
+        SEND_STRING("00");
+      } else {
+        // when keycode KC_DBL0 is released
       }
-    }
-    break;
-  case KEYREPLAY100:
-    if (record->event.pressed)
-    {
-      int i;
-      int x;
-      for (x = 0; x < 15; x++)
-      {
-        tap_code(KC_BTN1);
-        for (i = 0; i < 180; i++)
-        {
-          // SEND_STRING(SS_DELAY(500) SS_TAP(X_BTN1));
-          tap_code(KC_MS_R);
+      break;
+    case GITADD:
+        if (record->event.pressed) {
+            SEND_STRING("git add .\n");
+        } else {
+            ;
         }
-        for (i = 0; i < 50; i++)
-        {
-          tap_code(KC_MS_U);
+        break;
+    case GITCOMMIT:
+        if (record->event.pressed) {
+            SEND_STRING("git commit -m");
+        } else {
+            ;
         }
-        tap_code(KC_BTN1);
-        for (i = 0; i < 180; i++)
-        {
-          // SEND_STRING(SS_DELAY(500) SS_TAP(X_BTN1));
-          tap_code(KC_MS_L);
+        break;
+    case GITINIT:
+        if (record->event.pressed) {
+            SEND_STRING("git init");
+        } else {
+            ;
         }
-        for (i = 0; i < 50; i++)
-        {
-          tap_code(KC_MS_D);
+        break;
+    case GITPULL:
+        if (record->event.pressed) {
+            SEND_STRING("git pull\n");
+        } else {
+            ;
+        }
+        break;
+    case GITPUSH:
+        if (record->event.pressed) {
+            SEND_STRING("git push\n");
+        } else {
+            ;
+        }
+        break;
+    case GITSTATUS:
+            if (record->event.pressed) {
+                SEND_STRING("git status\n");
+            } else {
+                ;
+            }
+            break;
+    case KEYHOLDF:
+      if (record -> event.pressed){
+          int h;
+          for(h = 0; h < 15;h++){
+
+            SEND_STRING(SS_DOWN(X_F) SS_DELAY(1000) SS_UP(X_F));
+            wait_ms(1025);
+          }
+      }
+      break;
+    case KEYREPLAY100:
+      if(record -> event.pressed){
+        int i;
+        int x;
+        for(x = 0; x < 15; x++) {
+          tap_code(KC_BTN1);
+          for(i = 0; i < 180; i++){
+            //SEND_STRING(SS_DELAY(500) SS_TAP(X_BTN1));
+            tap_code(KC_MS_R);
+          }
+          for(i = 0; i < 50; i++){
+            tap_code(KC_MS_U);
+          }
+          tap_code(KC_BTN1);
+          for (i = 0; i < 180; i++) {
+              // SEND_STRING(SS_DELAY(500) SS_TAP(X_BTN1));
+              tap_code(KC_MS_L);
+          }
+          for (i = 0; i < 50; i++) {
+              tap_code(KC_MS_D);
+          }
         }
       }
-    }
+      break;
+  }
+    return true;
+};
+bool encoder_update_user(uint8_t index, bool clockwise) {
+  switch(get_highest_layer(layer_state)) {
+    case _F12:
+      if(clockwise) {
+        tap_code(KC_MS_WH_UP);
+      } else {
+        tap_code(KC_MS_WH_DOWN);
+      }
     break;
+    case _F12_2:
+      if (clockwise) {
+          tap_code(KC_WH_L);
+      } else {
+          tap_code(KC_WH_R);
+      }
+    break;
+    default:
+      if(clockwise) {
+        tap_code(KC_VOLU);
+      } else {
+        tap_code(KC_VOLD);
+      }
+      break;
   }
   return true;
 };
-bool encoder_update_user(uint8_t index, bool clockwise)
-{
-  switch (get_highest_layer(layer_state))
-  {
-  case _F12:
-    if (clockwise)
-    {
-      tap_code(KC_MS_WH_UP);
-    }
-    else
-    {
-      tap_code(KC_MS_WH_DOWN);
-    }
-    break;
-  case _F12_2:
-    if (clockwise)
-    {
-      tap_code(KC_WH_L);
-    }
-    else
-    {
-      tap_code(KC_WH_R);
-    }
-    break;
-  default:
-    if (clockwise)
-    {
-      tap_code(KC_VOLU);
-    }
-    else
-    {
-      tap_code(KC_VOLD);
-    }
-    break;
-  }
-  return true;
-};
-void suspend_power_down_user(void)
-{
-  rgb_matrix_set_color_all(0, 0, 0);
+void suspend_power_down_user(void) {
+  rgb_matrix_set_color_all(0,0,0);
   rgb_matrix_disable();
   rgb_matrix_set_suspend_state(true);
 }
 
-void suspend_wakeup_init_user(void)
-{
+void suspend_wakeup_init_user(void) {
   rgb_matrix_set_suspend_state(false);
   rgb_matrix_enable();
 }
 
-void rgb_matrix_indicators_user(void)
-{
-  switch (get_highest_layer(layer_state))
-  {
-  case _BL:
-    rgb_matrix_set_color(0, 18, 18, 18);
-    rgb_matrix_set_color(4, 18, 18, 18);
-    rgb_matrix_set_color(18, 18, 18, 18);
-    rgb_matrix_set_color(22, 18, 18, 18);
+void rgb_matrix_indicators_user(void) {
+    switch (get_highest_layer(layer_state)) {
+        case _BL:
+          rgb_matrix_set_color(0, 18, 18,18);
+          rgb_matrix_set_color(4, 18, 18, 18);
+          rgb_matrix_set_color(18, 18, 18, 18);
+          rgb_matrix_set_color(22, 18, 18, 18);
 
-    break;
-  case _RGB:
-    rgb_matrix_set_color(0, 0, 16, 0);
-    rgb_matrix_set_color(4, 0, 16, 0);
-    rgb_matrix_set_color(18, 0, 16, 0);
-    rgb_matrix_set_color(22, 0, 16, 0);
+          break;
+        case _RGB:
+          rgb_matrix_set_color(0, 0, 16,0);
+          rgb_matrix_set_color(4, 0, 16,0);
+          rgb_matrix_set_color(18, 0, 16, 0);
+          rgb_matrix_set_color(22, 0, 16,0);
 
-    break;
-  case _F12:
-    rgb_matrix_set_color(0, 16, 0, 0);
-    rgb_matrix_set_color(4, 16, 0, 0);
-    rgb_matrix_set_color(18, 16, 0, 0);
-    rgb_matrix_set_color(22, 16, 0, 0);
+          break;
+        case _F12:
+          rgb_matrix_set_color(0, 16, 0, 0);
+          rgb_matrix_set_color(4, 16, 0, 0);
+          rgb_matrix_set_color(18, 16, 0, 0);
+          rgb_matrix_set_color(22, 16, 0,0);
 
-    break;
-  case _LEFTBOARD:
-    rgb_matrix_set_color_all(16, 0, 0);
-    break;
-  }
+          break;
+        case _LEFTBOARD:
+          rgb_matrix_set_color_all(16,0,0);
+          break;
+    }
 }
