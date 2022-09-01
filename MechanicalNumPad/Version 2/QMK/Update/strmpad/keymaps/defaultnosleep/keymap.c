@@ -51,18 +51,13 @@ enum layers {
     _F12_2,
     _LEFTBOARD
 };
-/*
+
 enum custom_keycodes {
-    KC_DBL0 = SAFE_RANGE,
-    GITPUSH,
-    GITPULL,
-    GITCOMMIT,
-    GITSTATUS,
-    GITADD,
-    GITINIT,
-    KEYHOLDF,
-    KEYREPLAY100
-}; */
+    YMD = SAFE_RANGE,
+    EDGE,
+   
+   
+  }; 
 // Tap Dance Functions
 enum {
     MUTE_DEAFEN,
@@ -84,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_MPLY, KC_P1, KC_P2, KC_P3, KC_PENT,
         TD(MUTE_DEAFEN), RGB_TOG, KC_0, KC_PDOT),
     [_RGB] = LAYOUT(
-        TO(_LEFTBOARD), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        TO(_LEFTBOARD), YMD, EDGE, KC_TRNS, KC_TRNS,
         RGB_VAI, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         RGB_VAD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         RGB_MOD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
@@ -108,96 +103,38 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_Z, KC_X, KC_C, KC_SPC,
         KC_LCTL, KC_TRNS, KC_Z, KC_LALT)
     };
-/*
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
-    case KC_DBL0:
+    case EDGE:
       if (record->event.pressed) {
-        SEND_STRING("00");
+        SEND_STRING(SS_LGUI("s"));
+        SEND_STRING(SS_DELAY(800) "EDGE");
+        SEND_STRING(SS_DELAY(800) SS_TAP(X_ENT));
+
+
       } else {
         // when keycode KC_DBL0 is released
       }
       break;
-    case GITADD:
+    case YMD:
         if (record->event.pressed) {
-            SEND_STRING("git add .\n");
-        } else {
-            ;
-        }
-        break;
-    case GITCOMMIT:
-        if (record->event.pressed) {
-            SEND_STRING("git commit -m");
-        } else {
-            ;
-        }
-        break;
-    case GITINIT:
-        if (record->event.pressed) {
-            SEND_STRING("git init");
-        } else {
-            ;
-        }
-        break;
-    case GITPULL:
-        if (record->event.pressed) {
-            SEND_STRING("git pull\n");
-        } else {
-            ;
-        }
-        break;
-    case GITPUSH:
-        if (record->event.pressed) {
-            SEND_STRING("git push\n");
-        } else {
-            ;
-        }
-        break;
-    case GITSTATUS:
-            if (record->event.pressed) {
-                SEND_STRING("git status\n");
-            } else {
-                ;
-            }
-            break;
-    case KEYHOLDF:
-      if (record -> event.pressed){
-          int h;
-          for(h = 0; h < 15;h++){
+          SEND_STRING(SS_LGUI("s"));
+          SEND_STRING(SS_DELAY(800) "Youtube Music Desktop App");
+          SEND_STRING(SS_DELAY(800) SS_TAP(X_ENT));
 
-            SEND_STRING(SS_DOWN(X_F) SS_DELAY(1000) SS_UP(X_F));
-            wait_ms(1025);
-          }
-      }
-      break;
-    case KEYREPLAY100:
-      if(record -> event.pressed){
-        int i;
-        int x;
-        for(x = 0; x < 15; x++) {
-          tap_code(KC_BTN1);
-          for(i = 0; i < 180; i++){
-            //SEND_STRING(SS_DELAY(500) SS_TAP(X_BTN1));
-            tap_code(KC_MS_R);
-          }
-          for(i = 0; i < 50; i++){
-            tap_code(KC_MS_U);
-          }
-          tap_code(KC_BTN1);
-          for (i = 0; i < 180; i++) {
-              // SEND_STRING(SS_DELAY(500) SS_TAP(X_BTN1));
-              tap_code(KC_MS_L);
-          }
-          for (i = 0; i < 50; i++) {
-              tap_code(KC_MS_D);
-          }
+
+
+
+        } else {
+            ;
         }
-      }
       break;
+      
   }
     return true;
 };
-*/
+
 bool encoder_update_user(uint8_t index, bool clockwise) {
   switch(get_highest_layer(layer_state)) {
     case _F12:

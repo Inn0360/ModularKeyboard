@@ -24,7 +24,7 @@
 #define PRODUCT StrmPad
 #define VENDOR_ID 0x7512
 #define PRODUCT_ID 0x36AB
-
+#define DEVICE_VER 0x0001
 
 /* Matrix Size */
 #define MATRIX_ROWS 5
