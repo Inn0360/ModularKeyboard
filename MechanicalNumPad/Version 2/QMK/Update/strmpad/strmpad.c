@@ -13,7 +13,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#include "strmpadv2.h"
+#include "strmpad.h"
 
 #ifdef RGB_MATRIX_ENABLE
 
@@ -23,7 +23,7 @@ led_config_t g_led_config = { {
     {5, 6, 7, 8, 9},
     {10, 11, 12, 13, NO_LED},
     {14 ,15 ,16 , 17, 18},
-    {19, 20, 21, 22, NO_LED} 
+    {19, 20, 21, 22, NO_LED}
 
 } , {
     // LED Index to Physical Position

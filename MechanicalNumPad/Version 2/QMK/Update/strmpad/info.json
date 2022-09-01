@@ -1,10 +1,10 @@
 {
-  "manufacturer": "Howin",
+  "manufacturer": "HeHe",
   "keyboard_name": "StrmPad",
-  "maintainer": "Howin",
-  "usb": {
-      "device_version": "1.0.0"
-  },
+  "maintainer": "Inno360",
+  "height": 5,
+  "width": 5,
+  "diode_direction": "COL2ROW",
   "layouts": {
     "LAYOUT": {
       "layout": [
